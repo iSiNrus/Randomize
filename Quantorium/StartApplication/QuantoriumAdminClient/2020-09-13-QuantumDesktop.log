@@ -1,0 +1,17 @@
+D 15:55:21:355 | 
+D 15:55:21:356 | 
+D 15:55:21:356 | 
+D 15:55:21:357 | Build: Thu Jun 11 06:23:47 2020
+D 15:55:21:357 | Log started: "2020-13-09"
+D 15:55:21:357 | Write to file: "./2020-09-13-QuantumDesktop.log"
+D 15:55:21:358 | ==========================================================================================
+D 15:55:21:359 | Data module singleton constructor
+D 15:55:21:359 | Load: "server/host" QVariant(QString, "panushkin.ru")
+D 15:55:21:359 | Load: "server/port" QVariant(QString, "8015")
+D 15:55:21:360 | Load: "server/ssl" QVariant(QString, "false")
+D 15:55:21:360 | Base server url: "http://panushkin.ru:8015/"
+D 15:55:21:380 | Refresh on url: "http://panushkin.ru:8015/achievement_children"
+D 15:55:21:463 | Load: "server/username" QVariant(QString, "mitryashkin")
+D 15:55:21:554 | Refresh response on  "http://panushkin.ru:8015/achievement_children"
+D 15:55:21:555 | Response error on "http://panushkin.ru:8015/achievement_children" : 0 ""
+D 15:55:25:077 | TreeRestTableModel destructor

@@ -1,0 +1,1476 @@
+D 10:34:11:346 | 
+D 10:34:11:347 | 
+D 10:34:11:347 | 
+D 10:34:11:348 | Build: Thu Jun 11 06:23:47 2020
+D 10:34:11:348 | Log started: "2020-22-06"
+D 10:34:11:348 | Write to file: "./2020-06-22-QuantumDesktop.log"
+D 10:34:11:348 | ==========================================================================================
+D 10:34:11:348 | Data module singleton constructor
+D 10:34:11:348 | Load: "server/host" QVariant(QString, "panushkin.ru")
+D 10:34:11:349 | Load: "server/port" QVariant(QString, "8015")
+D 10:34:11:349 | Load: "server/ssl" QVariant(QString, "false")
+D 10:34:11:350 | Base server url: "http://panushkin.ru:8015/"
+D 10:34:11:360 | Refresh on url: "http://panushkin.ru:8015/achievement_children"
+D 10:34:11:446 | Load: "server/username" QVariant(QString, "")
+D 10:34:11:490 | QNetworkReplyHttpImplPrivate::_q_startOperation was called more than once QUrl("http://panushkin.ru:8015/achievement_children")
+D 10:34:11:567 | NAM active changed: true
+D 10:34:11:589 | NAM active changed: false
+D 10:34:11:589 | Refresh response on  "http://panushkin.ru:8015/achievement_children"
+D 10:34:11:589 | Response error on "http://panushkin.ru:8015/achievement_children" : 0 ""
+D 10:34:19:198 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 10:34:19:199 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 10:34:19:200 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 10:34:19:201 | Refresh on url: "http://panushkin.ru:8015/quantum?city_id=1"
+D 10:34:19:201 | Save: "server/username" QVariant(QString, "arochkin")
+D 10:34:19:271 | Refresh response on  "http://panushkin.ru:8015/quantum?city_id=1"
+D 10:34:19:280 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 10:34:19:303 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 10:34:19:304 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 10:34:19:310 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 10:34:19:311 | NAM active changed: true
+D 10:34:19:347 | NAM active changed: false
+D 10:34:19:347 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 10:34:19:366 | QUrl("http://panushkin.ru:8015/attachments/sysuser/appdata/24/useravatar.jpg") ""
+D 10:34:19:367 | Read buffer size: 0
+D 10:34:19:446 | OnReadyRead http code: 404
+D 10:34:19:447 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/sysuser/appdata/24/useravatar.jpg")
+W 10:34:19:447 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/sysuser/appdata/24/useravatar.jpg - server replied: "
+D 10:34:19:448 | Ававтар не загружен
+D 10:34:22:919 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 10:34:22:920 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 10:34:22:949 | Widget registered: "edtFirstName"
+D 10:34:22:949 | Trying to find label widget: "lblFirstName"
+D 10:34:22:950 | Found: false
+D 10:34:22:950 | Widget registered: "edtPassword"
+D 10:34:22:950 | Trying to find label widget: "lblPassword"
+D 10:34:22:950 | Found: false
+D 10:34:22:950 | Widget registered: "edtUsername"
+D 10:34:22:950 | Trying to find label widget: "lblUsername"
+D 10:34:22:951 | Found: false
+D 10:34:22:951 | Widget registered: "edtPhone"
+D 10:34:22:951 | Trying to find label widget: "lblPhone"
+D 10:34:22:951 | Found: false
+D 10:34:22:951 | Widget registered: "edtEmail"
+D 10:34:22:951 | Trying to find label widget: "lblEmail"
+D 10:34:22:952 | Found: false
+D 10:34:22:952 | Widget registered: "edtNumber"
+D 10:34:22:952 | Trying to find label widget: "lblNumber"
+D 10:34:22:952 | Found: false
+D 10:34:22:952 | Widget registered: "edtPassportOffice"
+D 10:34:22:952 | Trying to find label widget: "lblPassportOffice"
+D 10:34:22:953 | Found: false
+D 10:34:22:953 | Widget registered: "edtCode"
+D 10:34:22:953 | Trying to find label widget: "lblCode"
+D 10:34:22:953 | Found: true
+D 10:34:22:953 | Widget registered: "cmbDocType"
+D 10:34:22:953 | Trying to find label widget: "lblDocType"
+D 10:34:22:954 | Found: true
+D 10:34:22:954 | Widget registered: "edtBirthDate"
+D 10:34:22:954 | Trying to find label widget: "lblBirthDate"
+D 10:34:22:954 | Found: false
+D 10:34:22:954 | Widget registered: "cmbCity"
+D 10:34:22:954 | Trying to find label widget: "lblCity"
+D 10:34:22:955 | Found: false
+D 10:34:22:955 | Widget registered: "rbMale"
+D 10:34:22:955 | Trying to find label widget: "lblMale"
+D 10:34:22:955 | Found: false
+D 10:34:22:955 | Widget registered: "cmbUserType"
+D 10:34:22:955 | Trying to find label widget: "lblUserType"
+D 10:34:22:956 | Found: false
+D 10:34:22:956 | Widget registered: "chkActive"
+D 10:34:22:956 | Trying to find label widget: "lblActive"
+D 10:34:22:956 | Found: false
+D 10:34:22:956 | Widget registered: "edtDisableReason"
+D 10:34:22:956 | Trying to find label widget: "lblDisableReason"
+D 10:34:22:957 | Found: false
+D 10:34:22:957 | Widget registered: "rbFirstShift"
+D 10:34:22:957 | Trying to find label widget: "lblFirstShift"
+D 10:34:22:957 | Found: false
+D 10:34:22:957 | Widget registered: "chkSocialBenefits"
+D 10:34:22:958 | Trying to find label widget: "lblSocialBenefits"
+D 10:34:22:958 | Found: false
+D 10:34:22:958 | Widget registered: "edtSocialBenefitsDescription"
+D 10:34:22:958 | Trying to find label widget: "lblSocialBenefitsDescription"
+D 10:34:22:958 | Found: false
+D 10:34:22:958 | Unsupported widget class
+D 10:34:22:959 | Widget registered: "edtSpecialization"
+D 10:34:22:959 | Trying to find label widget: "lblSpecialization"
+D 10:34:22:959 | Found: false
+D 10:34:22:959 | Widget registered: "edtTeacherNumber"
+D 10:34:22:959 | Trying to find label widget: "lblTeacherNumber"
+D 10:34:22:959 | Found: false
+D 10:34:22:960 | Widget registered: "edtSerial"
+D 10:34:22:960 | Trying to find label widget: "lblSerial"
+D 10:34:22:960 | Found: false
+D 10:34:22:960 | Widget registered: "rbStaff"
+D 10:34:22:960 | Trying to find label widget: "lblStaff"
+D 10:34:22:960 | Found: false
+D 10:34:22:961 | Widget registered: "edtLastName"
+D 10:34:22:961 | Trying to find label widget: "lblLastName"
+D 10:34:22:961 | Found: false
+D 10:34:22:961 | Widget registered: "edtRegistrationAddress"
+D 10:34:22:961 | Trying to find label widget: "lblRegistrationAddress"
+D 10:34:22:961 | Found: false
+D 10:34:22:962 | Widget registered: "edtSecondName"
+D 10:34:22:962 | Trying to find label widget: "lblSecondName"
+D 10:34:22:962 | Found: false
+D 10:34:22:962 | Widget registered: "edtActualAddress"
+D 10:34:22:962 | Trying to find label widget: "lblActualAddress"
+D 10:34:22:962 | Found: false
+D 10:34:22:963 | Widget registered: "edtIssueDate"
+D 10:34:22:963 | Trying to find label widget: "lblIssueDate"
+D 10:34:22:963 | Found: false
+D 10:34:22:963 | Found button box: false
+D 10:34:22:963 | "OK" "Отмена"
+D 10:34:22:965 | Update actions
+D 10:34:23:021 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 10:34:23:022 | Update actions
+D 10:34:23:022 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 10:34:23:022 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 10:34:23:069 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 10:34:26:350 | Refresh on url: "http://panushkin.ru:8015/case"
+D 10:34:26:366 | Widget registered: "edtTitle"
+D 10:34:26:367 | Trying to find label widget: "lblTitle"
+D 10:34:26:367 | Found: false
+D 10:34:26:367 | Widget registered: "edtMinAge"
+D 10:34:26:367 | Trying to find label widget: "lblMinAge"
+D 10:34:26:368 | Found: false
+D 10:34:26:368 | Widget registered: "edtDescription"
+D 10:34:26:368 | Trying to find label widget: "lblDescription"
+D 10:34:26:368 | Found: false
+D 10:34:26:368 | Widget registered: "edtPassingScore"
+D 10:34:26:368 | Trying to find label widget: "lblPassingScore"
+D 10:34:26:369 | Found: false
+D 10:34:26:369 | Found button box: false
+D 10:34:26:369 | "OK" "Отмена"
+D 10:34:26:371 | Update actions
+D 10:34:26:404 | Refresh response on  "http://panushkin.ru:8015/case"
+D 10:36:38:606 | Refresh on url: "http://panushkin.ru:8015/quantum?city_id=1"
+D 10:36:38:608 | Widget registered: "edtName"
+D 10:36:38:608 | Trying to find label widget: "lblName"
+D 10:36:38:609 | Found: true
+D 10:36:38:609 | Widget registered: "edtDescription"
+D 10:36:38:609 | Trying to find label widget: "lblDescription"
+D 10:36:38:609 | Found: true
+D 10:36:38:609 | Widget registered: "cmbCity"
+D 10:36:38:610 | Trying to find label widget: "lblCity"
+D 10:36:38:610 | Found: true
+D 10:36:38:610 | Found button box: false
+D 10:36:38:610 | "OK" "Отмена"
+D 10:36:38:612 | Update actions
+D 10:36:38:671 | Refresh response on  "http://panushkin.ru:8015/quantum?city_id=1"
+D 10:36:39:762 | Update actions
+D 10:36:39:763 | Update actions
+D 10:36:39:766 | QUrl("http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg") ""
+D 10:36:39:766 | Read buffer size: 0
+D 10:36:39:767 | Update actions
+D 10:36:39:767 | Update actions
+D 10:36:39:846 | OnReadyRead http code: 404
+D 10:36:39:846 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg")
+W 10:36:39:847 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg - server replied: "
+D 10:36:39:847 | Icon downloader error
+D 10:36:43:361 | Reverting form changes
+D 10:44:25:743 | Refresh on url: "http://panushkin.ru:8015/quantum?city_id=1"
+D 10:44:25:745 | Widget registered: "edtName"
+D 10:44:25:746 | Trying to find label widget: "lblName"
+D 10:44:25:746 | Found: true
+D 10:44:25:746 | Widget registered: "edtDescription"
+D 10:44:25:746 | Trying to find label widget: "lblDescription"
+D 10:44:25:747 | Found: true
+D 10:44:25:747 | Widget registered: "cmbCity"
+D 10:44:25:747 | Trying to find label widget: "lblCity"
+D 10:44:25:747 | Found: true
+D 10:44:25:747 | Found button box: false
+D 10:44:25:748 | "OK" "Отмена"
+D 10:44:25:750 | Update actions
+D 10:44:25:804 | QNetworkReplyHttpImplPrivate::_q_startOperation was called more than once QUrl("http://panushkin.ru:8015/quantum?city_id=1")
+D 10:44:25:865 | Refresh response on  "http://panushkin.ru:8015/quantum?city_id=1"
+D 10:44:27:722 | Update actions
+D 10:44:27:723 | Update actions
+D 10:44:27:724 | QUrl("http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg") ""
+D 10:44:27:725 | Read buffer size: 0
+D 10:44:27:725 | Update actions
+D 10:44:27:725 | Update actions
+D 10:44:27:805 | OnReadyRead http code: 404
+D 10:44:27:805 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg")
+W 10:44:27:805 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg - server replied: "
+D 10:44:27:806 | Icon downloader error
+D 10:44:49:981 | Photo uploaded
+D 10:44:51:041 | Reverting form changes
+D 10:44:55:819 | Update actions
+D 10:44:55:822 | QUrl("http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg") ""
+D 10:44:55:823 | Read buffer size: 0
+D 10:44:55:823 | Update actions
+D 10:44:55:900 | OnReadyRead http code: 404
+D 10:44:55:900 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg")
+W 10:44:55:900 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg - server replied: "
+D 10:44:55:901 | Icon downloader error
+D 10:45:08:820 | Photo uploaded
+D 10:45:15:826 | Update actions
+D 10:45:17:707 | Update actions
+D 10:45:19:515 | Update actions
+D 10:45:21:443 | Update actions
+D 10:45:23:547 | Update actions
+D 10:45:25:074 | Try to submit: 14
+D 10:45:25:074 | Update actions
+D 10:45:25:167 | update action reply
+D 10:45:26:171 | Update actions
+D 10:45:26:174 | QUrl("http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg") ""
+D 10:45:26:175 | Read buffer size: 0
+D 10:45:26:175 | Update actions
+D 10:45:26:254 | OnReadyRead http code: 404
+D 10:45:26:254 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg")
+W 10:45:26:255 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg - server replied: "
+D 10:45:26:255 | Icon downloader error
+D 10:45:28:571 | Update actions
+D 10:45:42:429 | Photo uploaded
+D 10:45:43:450 | Try to submit: 14
+D 10:45:43:450 | Update actions
+D 10:45:43:542 | update action reply
+D 10:45:44:986 | Update actions
+D 10:45:44:989 | QUrl("http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg") ""
+D 10:45:44:990 | Read buffer size: 0
+D 10:45:44:990 | Update actions
+D 10:45:45:069 | OnReadyRead http code: 404
+D 10:45:45:069 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg")
+W 10:45:45:069 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/quantum/icon/14/icon.jpg - server replied: "
+D 10:45:45:069 | Icon downloader error
+D 10:45:47:889 | Reverting form changes
+D 10:54:22:782 | Refresh on url: "http://panushkin.ru:8015/case"
+D 10:54:22:799 | Widget registered: "edtTitle"
+D 10:54:22:800 | Trying to find label widget: "lblTitle"
+D 10:54:22:800 | Found: false
+D 10:54:22:800 | Widget registered: "edtMinAge"
+D 10:54:22:800 | Trying to find label widget: "lblMinAge"
+D 10:54:22:800 | Found: false
+D 10:54:22:800 | Widget registered: "edtDescription"
+D 10:54:22:801 | Trying to find label widget: "lblDescription"
+D 10:54:22:801 | Found: false
+D 10:54:22:801 | Widget registered: "edtPassingScore"
+D 10:54:22:801 | Trying to find label widget: "lblPassingScore"
+D 10:54:22:801 | Found: false
+D 10:54:22:802 | Found button box: false
+D 10:54:22:802 | "OK" "Отмена"
+D 10:54:22:803 | Update actions
+D 10:54:22:871 | QNetworkReplyHttpImplPrivate::_q_startOperation was called more than once QUrl("http://panushkin.ru:8015/case")
+D 10:54:22:932 | Refresh response on  "http://panushkin.ru:8015/case"
+D 10:55:13:515 | Send request: QUrl("http://panushkin.ru:8015/achievementTree?city_id=1")
+D 10:55:13:516 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 10:55:13:517 | Refresh on url: "http://panushkin.ru:8015/achievement_group"
+D 10:55:13:568 | Refresh response (tree model) on  "http://panushkin.ru:8015/achievementTree?city_id=1"
+D 10:55:13:674 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 10:55:13:675 | Refresh response on  "http://panushkin.ru:8015/achievement_group"
+D 10:55:28:090 | create action reply
+D 10:55:28:090 | Saved to server data QJsonValue(object, QJsonObject({"achievement_group_id":12,"description":null,"id":22,"title":"Новое достижение","valid_months":0}))
+D 10:55:28:167 | QUrl("http://panushkin.ru:8015/attachments/achievement/22/icon.jpg") ""
+D 10:55:28:167 | Read buffer size: 0
+D 10:55:28:168 | Refresh on url: "http://panushkin.ru:8015/achievement_children?achievement_id=22"
+D 10:55:28:169 | NAM active changed: true
+D 10:55:28:250 | OnReadyRead http code: 404
+D 10:55:28:250 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/achievement/22/icon.jpg")
+W 10:55:28:250 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/achievement/22/icon.jpg - server replied: "
+D 10:55:28:250 | Icon downloader error
+D 10:55:28:250 | NAM active changed: false
+D 10:55:28:251 | Refresh response on  "http://panushkin.ru:8015/achievement_children?achievement_id=22"
+D 10:55:39:252 | Try to submit: 22
+D 10:55:39:389 | update action reply
+D 10:56:16:312 | Photo uploaded
+D 10:58:26:506 | Photo uploaded
+D 10:58:46:467 | Send request: QUrl("http://panushkin.ru:8015/achievementTree?city_id=1")
+D 10:58:46:468 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 10:58:46:468 | Refresh on url: "http://panushkin.ru:8015/achievement_group"
+D 10:58:46:554 | Refresh response (tree model) on  "http://panushkin.ru:8015/achievementTree?city_id=1"
+D 10:58:46:593 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 10:58:46:658 | Refresh response on  "http://panushkin.ru:8015/achievement_group"
+D 10:58:48:634 | QUrl("http://panushkin.ru:8015/attachments/achievement/22/icon.jpg") ""
+D 10:58:48:635 | Read buffer size: 0
+D 10:58:48:635 | Refresh on url: "http://panushkin.ru:8015/achievement_children?achievement_id=22"
+D 10:58:48:676 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/achievement/22/icon.jpg")
+D 10:58:48:718 | Refresh response on  "http://panushkin.ru:8015/achievement_children?achievement_id=22"
+D 10:58:54:118 | Refresh on url: "http://panushkin.ru:8015/case"
+D 10:58:54:135 | Widget registered: "edtTitle"
+D 10:58:54:135 | Trying to find label widget: "lblTitle"
+D 10:58:54:136 | Found: false
+D 10:58:54:136 | Widget registered: "edtMinAge"
+D 10:58:54:136 | Trying to find label widget: "lblMinAge"
+D 10:58:54:136 | Found: false
+D 10:58:54:136 | Widget registered: "edtDescription"
+D 10:58:54:137 | Trying to find label widget: "lblDescription"
+D 10:58:54:137 | Found: false
+D 10:58:54:137 | Widget registered: "edtPassingScore"
+D 10:58:54:137 | Trying to find label widget: "lblPassingScore"
+D 10:58:54:137 | Found: false
+D 10:58:54:137 | Found button box: false
+D 10:58:54:138 | "OK" "Отмена"
+D 10:58:54:139 | Update actions
+D 10:58:54:180 | Refresh response on  "http://panushkin.ru:8015/case"
+D 12:54:32:994 | Send request: QUrl("http://panushkin.ru:8015/achievementTree?city_id=1")
+D 12:54:32:997 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 12:54:32:997 | Refresh on url: "http://panushkin.ru:8015/achievement_group"
+D 12:54:33:116 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 12:54:33:117 | Refresh response on  "http://panushkin.ru:8015/achievement_group"
+D 12:54:33:153 | QNetworkReplyHttpImplPrivate::_q_startOperation was called more than once QUrl("http://panushkin.ru:8015/achievementTree?city_id=1")
+D 12:54:33:199 | Refresh response (tree model) on  "http://panushkin.ru:8015/achievementTree?city_id=1"
+D 12:54:38:218 | Refresh on url: "http://panushkin.ru:8015/case"
+D 12:54:38:236 | Widget registered: "edtTitle"
+D 12:54:38:237 | Trying to find label widget: "lblTitle"
+D 12:54:38:237 | Found: false
+D 12:54:38:237 | Widget registered: "edtMinAge"
+D 12:54:38:237 | Trying to find label widget: "lblMinAge"
+D 12:54:38:238 | Found: false
+D 12:54:38:238 | Widget registered: "edtDescription"
+D 12:54:38:238 | Trying to find label widget: "lblDescription"
+D 12:54:38:238 | Found: false
+D 12:54:38:238 | Widget registered: "edtPassingScore"
+D 12:54:38:239 | Trying to find label widget: "lblPassingScore"
+D 12:54:38:239 | Found: false
+D 12:54:38:239 | Found button box: false
+D 12:54:38:239 | "OK" "Отмена"
+D 12:54:38:241 | Update actions
+D 12:54:38:284 | Refresh response on  "http://panushkin.ru:8015/case"
+D 12:54:45:721 | Refresh on url: "http://panushkin.ru:8015/case"
+D 12:54:45:738 | Widget registered: "edtTitle"
+D 12:54:45:739 | Trying to find label widget: "lblTitle"
+D 12:54:45:739 | Found: false
+D 12:54:45:739 | Widget registered: "edtMinAge"
+D 12:54:45:739 | Trying to find label widget: "lblMinAge"
+D 12:54:45:739 | Found: false
+D 12:54:45:739 | Widget registered: "edtDescription"
+D 12:54:45:740 | Trying to find label widget: "lblDescription"
+D 12:54:45:740 | Found: false
+D 12:54:45:740 | Widget registered: "edtPassingScore"
+D 12:54:45:740 | Trying to find label widget: "lblPassingScore"
+D 12:54:45:740 | Found: false
+D 12:54:45:741 | Found button box: false
+D 12:54:45:741 | "OK" "Отмена"
+D 12:54:45:743 | Update actions
+D 12:54:45:785 | Refresh response on  "http://panushkin.ru:8015/case"
+D 13:02:55:087 | Update actions
+D 13:02:55:089 | Update actions
+W 13:02:55:091 | Lookup column "partname" : Cant find id 1 in model "http://panushkin.ru:8015/user?city_id=1"
+D 13:02:55:091 | QUrl("http://panushkin.ru:8015/attachments/case/icon/25/icon.jpg") ""
+D 13:02:55:092 | Read buffer size: 0
+D 13:02:55:092 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/25"
+D 13:02:55:093 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/25"
+D 13:02:55:094 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:02:55:094 | Refresh on url: "http://panushkin.ru:8015/task?case_id=25"
+D 13:02:55:095 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:02:55:096 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:02:55:097 | Update actions
+D 13:02:55:097 | Update actions
+D 13:02:55:162 | QNetworkReplyHttpImplPrivate::_q_startOperation was called more than once QUrl("http://panushkin.ru:8015/attachments/case/icon/25/icon.jpg")
+D 13:02:55:175 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:02:55:176 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=25"
+D 13:02:55:177 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=25"
+D 13:02:55:185 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:02:55:192 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/25"  (data only)
+D 13:02:55:192 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/25"  (data only)
+D 13:02:55:205 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:02:55:221 | Refresh response on  "http://panushkin.ru:8015/task?case_id=25"
+D 13:02:55:256 | OnReadyRead http code: 404
+D 13:02:55:257 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/25/icon.jpg")
+W 13:02:55:257 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/25/icon.jpg - server replied: "
+D 13:02:55:257 | Icon downloader error
+D 13:02:55:268 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=25"
+D 13:02:55:276 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=25"
+D 13:02:59:377 | Refresh on url: "http://panushkin.ru:8015/case"
+D 13:02:59:426 | Refresh response on  "http://panushkin.ru:8015/case"
+W 13:02:59:431 | Lookup column "partname" : Cant find id 1 in model "http://panushkin.ru:8015/user?city_id=1"
+D 13:02:59:431 | QUrl("http://panushkin.ru:8015/attachments/case/icon/25/icon.jpg") ""
+D 13:02:59:432 | Read buffer size: 0
+D 13:02:59:432 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/25"
+D 13:02:59:433 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/25"
+D 13:02:59:433 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:02:59:435 | Refresh on url: "http://panushkin.ru:8015/task?case_id=25"
+D 13:02:59:435 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:02:59:436 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:02:59:437 | Update actions
+D 13:02:59:485 | NAM active changed: true
+D 13:02:59:491 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:02:59:491 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=25"
+D 13:02:59:492 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=25"
+D 13:02:59:517 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/25"  (data only)
+D 13:02:59:518 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/25"  (data only)
+D 13:02:59:531 | Refresh response on  "http://panushkin.ru:8015/task?case_id=25"
+D 13:02:59:534 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:02:59:536 | OnReadyRead http code: 404
+D 13:02:59:537 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/25/icon.jpg")
+W 13:02:59:537 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/25/icon.jpg - server replied: "
+D 13:02:59:537 | Icon downloader error
+D 13:02:59:541 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:02:59:597 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=25"
+D 13:02:59:599 | NAM active changed: false
+D 13:02:59:600 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=25"
+D 13:03:11:520 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:03:11:521 | Refresh on url: "http://panushkin.ru:8015/task?case_id=25"
+D 13:03:11:603 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:03:11:605 | Refresh response on  "http://panushkin.ru:8015/task?case_id=25"
+D 13:03:11:926 | Refresh on url: "http://panushkin.ru:8015/task?case_id=25"
+D 13:03:11:926 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:03:12:010 | Refresh response on  "http://panushkin.ru:8015/task?case_id=25"
+D 13:03:12:011 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:03:12:973 | Reverting form changes
+D 13:03:15:374 | Update actions
+D 13:03:15:376 | Update actions
+D 13:03:15:377 | QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg") ""
+D 13:03:15:378 | Read buffer size: 0
+D 13:03:15:378 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/32"
+D 13:03:15:379 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/32"
+D 13:03:15:380 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:15:380 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:15:381 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:03:15:382 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:03:15:382 | Update actions
+D 13:03:15:383 | Update actions
+D 13:03:15:451 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:03:15:451 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:03:15:452 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:03:15:469 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/32"  (data only)
+D 13:03:15:478 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:15:482 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:15:488 | OnReadyRead http code: 404
+D 13:03:15:489 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg")
+W 13:03:15:489 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg - server replied: "
+D 13:03:15:489 | Icon downloader error
+D 13:03:15:490 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/32"  (data only)
+D 13:03:15:492 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:03:15:555 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:03:15:560 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:03:17:631 | Refresh on url: "http://panushkin.ru:8015/case"
+D 13:03:17:683 | Refresh response on  "http://panushkin.ru:8015/case"
+D 13:03:17:688 | QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg") ""
+D 13:03:17:688 | Read buffer size: 0
+D 13:03:17:689 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/32"
+D 13:03:17:689 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/32"
+D 13:03:17:690 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:17:690 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:17:691 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:03:17:692 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:03:17:692 | Update actions
+D 13:03:17:755 | NAM active changed: true
+D 13:03:17:761 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:03:17:761 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:03:17:762 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:03:17:777 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/32"  (data only)
+D 13:03:17:783 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:17:787 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:17:791 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/32"  (data only)
+D 13:03:17:796 | OnReadyRead http code: 404
+D 13:03:17:797 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg")
+W 13:03:17:797 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg - server replied: "
+D 13:03:17:797 | Icon downloader error
+D 13:03:17:804 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:03:17:864 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:03:17:865 | NAM active changed: false
+D 13:03:17:866 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:03:22:231 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:22:232 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:22:316 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:22:316 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:22:791 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:22:791 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:22:872 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:22:872 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:26:308 | Reverting form changes
+D 13:03:28:406 | Update actions
+D 13:03:28:408 | QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg") ""
+D 13:03:28:409 | Read buffer size: 0
+D 13:03:28:409 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/32"
+D 13:03:28:410 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/32"
+D 13:03:28:410 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:28:411 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:28:412 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:03:28:412 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:03:28:413 | Update actions
+D 13:03:28:481 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:03:28:481 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:03:28:482 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:03:28:502 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/32"  (data only)
+D 13:03:28:502 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/32"  (data only)
+D 13:03:28:510 | OnReadyRead http code: 404
+D 13:03:28:511 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg")
+W 13:03:28:511 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg - server replied: "
+D 13:03:28:511 | Icon downloader error
+D 13:03:28:513 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:28:514 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:28:526 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:03:28:586 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:03:28:602 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:03:31:565 | Reverting form changes
+D 13:03:33:799 | Update actions
+D 13:03:33:800 | QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg") ""
+D 13:03:33:801 | Read buffer size: 0
+D 13:03:33:801 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/32"
+D 13:03:33:802 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/32"
+D 13:03:33:803 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:33:803 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:33:804 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:03:33:805 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:03:33:805 | Update actions
+D 13:03:33:852 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:03:33:853 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:03:33:853 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:03:33:895 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:03:33:900 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:33:902 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/32"  (data only)
+D 13:03:33:908 | OnReadyRead http code: 404
+D 13:03:33:909 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg")
+W 13:03:33:909 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg - server replied: "
+D 13:03:33:909 | Icon downloader error
+D 13:03:33:909 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/32"  (data only)
+D 13:03:33:910 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:33:976 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:03:33:981 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:03:37:567 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:37:568 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:37:648 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:37:648 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:38:552 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:38:552 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:38:641 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:38:748 | NAM active changed: true
+D 13:03:38:896 | NAM active changed: false
+D 13:03:38:897 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:40:598 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:40:599 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:40:679 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:40:680 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:42:524 | Reverting form changes
+D 13:03:47:806 | Update actions
+D 13:03:47:808 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:03:47:809 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:03:47:810 | Update actions
+D 13:03:47:811 | QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg") ""
+D 13:03:47:812 | Read buffer size: 0
+D 13:03:47:812 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/33"
+D 13:03:47:813 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/33"
+D 13:03:47:813 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:03:47:814 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:03:47:815 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:03:47:815 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:03:47:816 | Update actions
+D 13:03:47:816 | Update actions
+D 13:03:47:891 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:03:47:898 | OnReadyRead http code: 404
+D 13:03:47:899 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg")
+W 13:03:47:899 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg - server replied: "
+D 13:03:47:899 | Icon downloader error
+D 13:03:47:915 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:03:47:916 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/33"  (data only)
+D 13:03:47:918 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:03:47:943 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:03:47:943 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=33"
+D 13:03:47:943 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=33"
+D 13:03:47:960 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:03:47:973 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:03:47:997 | NAM active changed: true
+D 13:03:48:033 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=33"
+D 13:03:48:035 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=33"
+D 13:03:48:368 | NAM active changed: false
+D 13:03:48:369 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/33"  (data only)
+D 13:03:52:038 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:03:52:039 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:03:52:122 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:03:52:124 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:03:54:167 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:03:54:168 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:03:54:256 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:03:54:257 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:03:55:047 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:03:55:048 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:03:55:129 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:03:55:130 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:03:56:606 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:03:56:607 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:03:56:692 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:03:56:693 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:04:02:708 | Reverting form changes
+D 13:04:04:910 | Update actions
+D 13:04:04:912 | Update actions
+W 13:04:04:913 | Lookup column "partname" : Cant find id 1 in model "http://panushkin.ru:8015/user?city_id=1"
+D 13:04:04:914 | QUrl("http://panushkin.ru:8015/attachments/case/icon/25/icon.jpg") ""
+D 13:04:04:914 | Read buffer size: 0
+D 13:04:04:914 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/25"
+D 13:04:04:915 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/25"
+D 13:04:04:916 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:04:04:917 | Refresh on url: "http://panushkin.ru:8015/task?case_id=25"
+D 13:04:04:917 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:04:04:918 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:04:04:919 | Update actions
+D 13:04:04:919 | Update actions
+D 13:04:04:977 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:04:04:977 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=25"
+D 13:04:04:978 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=25"
+D 13:04:04:996 | OnReadyRead http code: 404
+D 13:04:04:997 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/25/icon.jpg")
+W 13:04:04:997 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/25/icon.jpg - server replied: "
+D 13:04:04:997 | Icon downloader error
+D 13:04:05:000 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/25"  (data only)
+D 13:04:05:014 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:04:05:018 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/25"  (data only)
+D 13:04:05:022 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:04:05:022 | Refresh response on  "http://panushkin.ru:8015/task?case_id=25"
+D 13:04:05:081 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=25"
+D 13:04:05:082 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=25"
+D 13:04:08:503 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:04:08:504 | Refresh on url: "http://panushkin.ru:8015/task?case_id=25"
+D 13:04:08:587 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:04:08:588 | Refresh response on  "http://panushkin.ru:8015/task?case_id=25"
+D 13:04:16:088 | Refresh on url: "http://panushkin.ru:8015/task?case_id=25"
+D 13:04:16:089 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:04:16:170 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:04:16:171 | Refresh response on  "http://panushkin.ru:8015/task?case_id=25"
+D 13:04:18:109 | Reverting form changes
+D 13:04:20:878 | Update actions
+D 13:04:20:879 | Update actions
+D 13:04:20:881 | QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg") ""
+D 13:04:20:881 | Read buffer size: 0
+D 13:04:20:882 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/33"
+D 13:04:20:882 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/33"
+D 13:04:20:883 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:04:20:884 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:04:20:884 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:04:20:885 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:04:20:886 | Update actions
+D 13:04:20:886 | Update actions
+D 13:04:20:951 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:04:20:951 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=33"
+D 13:04:20:952 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=33"
+D 13:04:20:972 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/33"  (data only)
+D 13:04:20:973 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/33"  (data only)
+D 13:04:21:001 | OnReadyRead http code: 404
+D 13:04:21:001 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg")
+W 13:04:21:001 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg - server replied: "
+D 13:04:21:002 | Icon downloader error
+D 13:04:21:002 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:04:21:002 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:04:21:002 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:04:21:060 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=33"
+D 13:04:21:061 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=33"
+D 13:04:21:639 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:04:21:640 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:04:21:722 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:04:21:725 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:04:25:239 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:04:25:240 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:04:25:322 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:04:25:323 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:04:27:261 | Reverting form changes
+D 13:04:32:023 | Refresh on url: "http://panushkin.ru:8015/case"
+D 13:04:32:068 | Refresh response on  "http://panushkin.ru:8015/case"
+D 13:04:32:074 | QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg") ""
+D 13:04:32:075 | Read buffer size: 0
+D 13:04:32:076 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/33"
+D 13:04:32:076 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/33"
+D 13:04:32:077 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:04:32:078 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:04:32:078 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:04:32:079 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:04:32:079 | Update actions
+D 13:04:32:125 | NAM active changed: true
+D 13:04:32:131 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:04:32:132 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=33"
+D 13:04:32:133 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=33"
+D 13:04:32:159 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/33"  (data only)
+D 13:04:32:172 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/33"  (data only)
+D 13:04:32:173 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:04:32:178 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:04:32:185 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:04:32:186 | OnReadyRead http code: 404
+D 13:04:32:186 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg")
+W 13:04:32:186 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg - server replied: "
+D 13:04:32:186 | Icon downloader error
+D 13:04:32:240 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=33"
+D 13:04:32:269 | NAM active changed: false
+D 13:04:32:270 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=33"
+D 13:04:35:071 | Update actions
+D 13:04:35:072 | Update actions
+D 13:04:35:073 | QUrl("http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg") ""
+D 13:04:35:074 | Read buffer size: 0
+D 13:04:35:074 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/34"
+D 13:04:35:075 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/34"
+D 13:04:35:075 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:04:35:076 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:04:35:077 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:04:35:077 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:04:35:078 | Update actions
+D 13:04:35:078 | Update actions
+D 13:04:35:140 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:04:35:140 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=34"
+D 13:04:35:141 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=34"
+D 13:04:35:152 | OnReadyRead http code: 404
+D 13:04:35:152 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg")
+W 13:04:35:152 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg - server replied: "
+D 13:04:35:152 | Icon downloader error
+D 13:04:35:160 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/34"  (data only)
+D 13:04:35:170 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:04:35:172 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:04:35:180 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/34"  (data only)
+D 13:04:35:182 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:04:35:234 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=34"
+D 13:04:35:241 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=34"
+D 13:04:36:710 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:04:36:711 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:04:36:796 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:04:36:798 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:04:40:045 | create action reply
+D 13:04:40:046 | Saved to server data QJsonValue(object, QJsonObject({"case_id":34,"description":null,"id":71,"sort_id":1,"title":"Занятие 1"}))
+D 13:04:43:600 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:04:43:600 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:04:43:679 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:04:43:683 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:04:52:349 | Update actions
+D 13:05:15:895 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:05:15:897 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:05:15:977 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:05:15:977 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:05:20:864 | create action reply
+D 13:05:20:864 | Saved to server data QJsonValue(object, QJsonObject({"case_id":34,"description":null,"id":72,"sort_id":2,"title":"Занятие 2"}))
+D 13:05:23:614 | Try to submit: 71
+D 13:05:23:614 | Try to submit: 72
+D 13:05:23:813 | NAM active changed: true
+D 13:05:24:757 | update action reply
+D 13:05:24:758 | Response error on "http://panushkin.ru:8015/case_unit/71?case_id=34" : 101 "ERROR:  deadlock detected\nDETAIL:  Process 11317 waits for ShareLock on transaction 19904; blocked by process 11318.\nProcess 11318 waits for ShareLock on transaction 19903; blocked by process 11317.\nHINT:  See server log for query details.\nCONTEXT:  while inserting index tuple (0,37) in relation \"uq_case_unit\"\n(40P01)"
+D 13:05:24:758 | NAM active changed: false
+D 13:05:24:759 | update action reply
+D 13:05:24:759 | Response error on "http://panushkin.ru:8015/case_unit/72?case_id=34" : 101 "ERROR:  duplicate key value violates unique constraint \"uq_case_unit\"\nDETAIL:  Key (case_id, sort_id)=(34, 1) already exists.\n(23505)"
+D 13:05:56:703 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:05:56:704 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:05:56:785 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:05:56:791 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:05:58:359 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:05:58:360 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:05:58:443 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:05:58:443 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:06:11:029 | Try to submit: 71
+D 13:06:11:173 | update action reply
+D 13:06:18:013 | create action reply
+D 13:06:18:014 | Saved to server data QJsonValue(object, QJsonObject({"case_id":34,"description":null,"id":73,"sort_id":3,"title":"Занятие 3"}))
+D 13:06:18:934 | create action reply
+D 13:06:18:935 | Saved to server data QJsonValue(object, QJsonObject({"case_id":34,"description":null,"id":74,"sort_id":4,"title":"Занятие 4"}))
+D 13:06:19:803 | create action reply
+D 13:06:19:803 | Saved to server data QJsonValue(object, QJsonObject({"case_id":34,"description":null,"id":75,"sort_id":5,"title":"Занятие 5"}))
+D 13:06:20:085 | Try to submit: 72
+D 13:06:20:225 | update action reply
+D 13:06:28:301 | Try to submit: 73
+D 13:06:28:442 | update action reply
+D 13:06:33:589 | Try to submit: 74
+D 13:06:33:728 | update action reply
+D 13:06:40:342 | Try to submit: 75
+D 13:06:40:484 | update action reply
+D 13:06:55:510 | Try to submit: 75
+D 13:06:55:651 | update action reply
+D 13:07:00:653 | create action reply
+D 13:07:00:653 | Saved to server data QJsonValue(object, QJsonObject({"case_id":34,"description":null,"id":52,"max_score":1,"name":"Задание 1","sort_id":1}))
+D 13:07:01:397 | Refresh on url: "http://panushkin.ru:8015/attachments/task/52"
+D 13:07:01:477 | Refresh response on  "http://panushkin.ru:8015/attachments/task/52"  (data only)
+D 13:07:19:376 | create action reply
+D 13:07:19:376 | Saved to server data QJsonValue(object, QJsonObject({"case_id":34,"description":null,"id":53,"max_score":1,"name":"Задание 2","sort_id":2}))
+D 13:07:20:160 | create action reply
+D 13:07:20:160 | Saved to server data QJsonValue(object, QJsonObject({"case_id":34,"description":null,"id":54,"max_score":1,"name":"Задание 3","sort_id":3}))
+D 13:07:20:926 | create action reply
+D 13:07:20:926 | Saved to server data QJsonValue(object, QJsonObject({"case_id":34,"description":null,"id":55,"max_score":1,"name":"Задание 4","sort_id":4}))
+D 13:07:21:771 | create action reply
+D 13:07:21:771 | Saved to server data QJsonValue(object, QJsonObject({"case_id":34,"description":null,"id":56,"max_score":1,"name":"Задание 5","sort_id":5}))
+D 13:07:27:582 | Try to submit: 52
+D 13:07:27:582 | Refresh on url: "http://panushkin.ru:8015/attachments/task/53"
+D 13:07:27:661 | Refresh response on  "http://panushkin.ru:8015/attachments/task/53"  (data only)
+D 13:07:27:700 | update action reply
+D 13:07:31:854 | Try to submit: 53
+D 13:07:31:854 | Refresh on url: "http://panushkin.ru:8015/attachments/task/54"
+D 13:07:31:934 | Refresh response on  "http://panushkin.ru:8015/attachments/task/54"  (data only)
+D 13:07:31:997 | update action reply
+D 13:07:34:846 | Try to submit: 54
+D 13:07:34:847 | Refresh on url: "http://panushkin.ru:8015/attachments/task/55"
+D 13:07:34:926 | Refresh response on  "http://panushkin.ru:8015/attachments/task/55"  (data only)
+D 13:07:34:987 | update action reply
+D 13:07:42:661 | Try to submit: 55
+D 13:07:42:661 | Refresh on url: "http://panushkin.ru:8015/attachments/task/56"
+D 13:07:42:744 | Refresh response on  "http://panushkin.ru:8015/attachments/task/56"  (data only)
+D 13:07:42:806 | update action reply
+D 13:07:45:366 | Try to submit: 56
+D 13:07:45:508 | update action reply
+D 13:07:45:933 | Refresh on url: "http://panushkin.ru:8015/attachments/task/52"
+D 13:07:46:015 | Refresh response on  "http://panushkin.ru:8015/attachments/task/52"  (data only)
+D 13:07:48:788 | Try to submit: 52
+D 13:07:48:789 | Try to submit: 52
+D 13:07:48:790 | Refresh on url: "http://panushkin.ru:8015/attachments/task/53"
+D 13:07:48:869 | Refresh response on  "http://panushkin.ru:8015/attachments/task/53"  (data only)
+D 13:07:48:909 | update action reply
+D 13:07:48:932 | update action reply
+W 13:07:48:932 | Update reply for ID that is not in changes map
+W 13:07:48:932 | Probably extra submit call
+D 13:07:51:325 | Try to submit: 53
+D 13:07:51:326 | Try to submit: 53
+D 13:07:51:326 | Refresh on url: "http://panushkin.ru:8015/attachments/task/54"
+D 13:07:51:408 | Refresh response on  "http://panushkin.ru:8015/attachments/task/54"  (data only)
+D 13:07:51:469 | update action reply
+D 13:07:51:474 | update action reply
+W 13:07:51:474 | Update reply for ID that is not in changes map
+W 13:07:51:474 | Probably extra submit call
+D 13:07:53:277 | Try to submit: 54
+D 13:07:53:277 | Try to submit: 54
+D 13:07:53:278 | Refresh on url: "http://panushkin.ru:8015/attachments/task/55"
+D 13:07:53:357 | Refresh response on  "http://panushkin.ru:8015/attachments/task/55"  (data only)
+D 13:07:53:428 | update action reply
+D 13:07:53:431 | update action reply
+W 13:07:53:431 | Update reply for ID that is not in changes map
+W 13:07:53:431 | Probably extra submit call
+D 13:07:54:628 | Try to submit: 55
+D 13:07:54:629 | Try to submit: 55
+D 13:07:54:630 | Refresh on url: "http://panushkin.ru:8015/attachments/task/56"
+D 13:07:54:709 | Refresh response on  "http://panushkin.ru:8015/attachments/task/56"  (data only)
+D 13:07:54:782 | update action reply
+D 13:07:54:785 | update action reply
+W 13:07:54:785 | Update reply for ID that is not in changes map
+W 13:07:54:785 | Probably extra submit call
+D 13:07:55:788 | Try to submit: 56
+D 13:07:55:932 | update action reply
+D 13:07:57:517 | Refresh on url: "http://panushkin.ru:8015/attachments/task/55"
+D 13:07:57:595 | Refresh response on  "http://panushkin.ru:8015/attachments/task/55"  (data only)
+D 13:07:57:805 | Refresh on url: "http://panushkin.ru:8015/attachments/task/54"
+D 13:07:57:884 | Refresh response on  "http://panushkin.ru:8015/attachments/task/54"  (data only)
+D 13:07:58:076 | Refresh on url: "http://panushkin.ru:8015/attachments/task/53"
+D 13:07:58:155 | Refresh response on  "http://panushkin.ru:8015/attachments/task/53"  (data only)
+D 13:07:58:437 | Refresh on url: "http://panushkin.ru:8015/attachments/task/52"
+D 13:07:58:515 | Refresh response on  "http://panushkin.ru:8015/attachments/task/52"  (data only)
+D 13:08:04:527 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:08:04:527 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:08:04:612 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:08:04:613 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:08:09:453 | Reverting form changes
+D 13:08:09:453 | Update actions
+D 13:08:14:119 | Update actions
+D 13:08:14:121 | QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg") ""
+D 13:08:14:122 | Read buffer size: 0
+D 13:08:14:122 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/33"
+D 13:08:14:123 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/33"
+D 13:08:14:124 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:08:14:125 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:08:14:126 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:08:14:127 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:08:14:128 | Update actions
+D 13:08:14:196 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:08:14:196 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=33"
+D 13:08:14:197 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=33"
+D 13:08:14:205 | OnReadyRead http code: 404
+D 13:08:14:206 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg")
+W 13:08:14:206 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg - server replied: "
+D 13:08:14:206 | Icon downloader error
+D 13:08:14:207 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/33"  (data only)
+D 13:08:14:208 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/33"  (data only)
+D 13:08:14:224 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:08:14:224 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:08:14:242 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:08:14:294 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=33"
+D 13:08:14:296 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=33"
+D 13:08:17:623 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:08:17:624 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:08:17:708 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:08:17:708 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:08:18:518 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:08:18:519 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:08:18:602 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:08:18:602 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:08:19:335 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:08:19:336 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:08:19:418 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:08:19:419 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:08:24:120 | create action reply
+D 13:08:24:120 | Saved to server data QJsonValue(object, QJsonObject({"case_id":33,"description":null,"id":76,"sort_id":1,"title":"Занятие 1"}))
+D 13:08:34:142 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:08:34:143 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:08:34:225 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:08:34:226 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:08:40:686 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:08:40:687 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:08:40:770 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:08:40:771 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:08:41:853 | Reverting form changes
+D 13:08:44:278 | Update actions
+D 13:08:44:279 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:08:44:280 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:08:44:281 | Update actions
+D 13:08:44:282 | QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg") ""
+D 13:08:44:283 | Read buffer size: 0
+D 13:08:44:283 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/32"
+D 13:08:44:284 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/32"
+D 13:08:44:285 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:08:44:285 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:08:44:286 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:08:44:287 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:08:44:287 | Update actions
+D 13:08:44:288 | Update actions
+D 13:08:44:371 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/32"  (data only)
+D 13:08:44:371 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/32"  (data only)
+D 13:08:44:374 | OnReadyRead http code: 404
+D 13:08:44:375 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg")
+W 13:08:44:375 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg - server replied: "
+D 13:08:44:375 | Icon downloader error
+D 13:08:44:380 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:08:44:388 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:08:44:388 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:08:44:423 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:08:44:423 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:08:44:424 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:08:44:424 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:08:44:453 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:08:44:486 | NAM active changed: true
+D 13:08:44:506 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:08:44:507 | NAM active changed: false
+D 13:08:44:507 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:08:45:645 | Reverting form changes
+D 13:08:52:718 | Update actions
+D 13:08:52:720 | QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg") ""
+D 13:08:52:721 | Read buffer size: 0
+D 13:08:52:721 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/32"
+D 13:08:52:722 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/32"
+D 13:08:52:722 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:08:52:723 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:08:52:723 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:08:52:724 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:08:52:725 | Update actions
+D 13:08:52:789 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:08:52:790 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:08:52:790 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:08:52:807 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:08:52:817 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/32"  (data only)
+D 13:08:52:819 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/32"  (data only)
+D 13:08:52:821 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:08:52:831 | OnReadyRead http code: 404
+D 13:08:52:831 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg")
+W 13:08:52:831 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg - server replied: "
+D 13:08:52:831 | Icon downloader error
+D 13:08:52:834 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:08:52:892 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:08:52:899 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:08:55:630 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:08:55:631 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:08:55:713 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:08:55:713 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:08:57:511 | create action reply
+D 13:08:57:512 | Saved to server data QJsonValue(object, QJsonObject({"case_id":32,"description":null,"id":77,"sort_id":1,"title":"Занятие 1"}))
+D 13:08:59:454 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:08:59:455 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:08:59:543 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:08:59:544 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:09:00:484 | Reverting form changes
+D 13:09:08:767 | Update actions
+D 13:09:08:768 | QUrl("http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg") ""
+D 13:09:08:769 | Read buffer size: 0
+D 13:09:08:769 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/34"
+D 13:09:08:770 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/34"
+D 13:09:08:770 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:09:08:771 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:09:08:772 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:09:08:772 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:09:08:773 | Update actions
+D 13:09:08:828 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:09:08:829 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=34"
+D 13:09:08:829 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=34"
+D 13:09:08:851 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/34"  (data only)
+D 13:09:08:859 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:09:08:869 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/34"  (data only)
+D 13:09:08:870 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:09:08:874 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:09:08:880 | OnReadyRead http code: 404
+D 13:09:08:880 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg")
+W 13:09:08:881 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg - server replied: "
+D 13:09:08:881 | Icon downloader error
+D 13:09:08:936 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=34"
+D 13:09:08:954 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=34"
+D 13:09:09:943 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:09:09:944 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:09:10:038 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:09:10:038 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:09:11:221 | Refresh on url: "http://panushkin.ru:8015/attachments/task/52"
+D 13:09:11:302 | Refresh response on  "http://panushkin.ru:8015/attachments/task/52"  (data only)
+D 13:09:27:326 | Refresh on url: "http://panushkin.ru:8015/attachments/task/56"
+D 13:09:27:406 | Refresh response on  "http://panushkin.ru:8015/attachments/task/56"  (data only)
+D 13:09:35:615 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:09:35:616 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:09:35:698 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:09:35:699 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:09:46:255 | Refresh on url: "http://panushkin.ru:8015/attachments/task/52"
+D 13:09:46:257 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:09:46:258 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:09:46:335 | Refresh response on  "http://panushkin.ru:8015/attachments/task/52"  (data only)
+D 13:09:46:345 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:09:46:346 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:09:51:687 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:09:51:688 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:09:51:772 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:09:51:774 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:09:52:837 | Reverting form changes
+D 13:09:58:887 | Update actions
+D 13:09:58:888 | QUrl("http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg") ""
+D 13:09:58:889 | Read buffer size: 0
+D 13:09:58:889 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/34"
+D 13:09:58:890 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/34"
+D 13:09:58:891 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:09:58:891 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:09:58:892 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:09:58:893 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:09:58:893 | Update actions
+D 13:09:58:951 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:09:58:951 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=34"
+D 13:09:58:952 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=34"
+D 13:09:58:969 | OnReadyRead http code: 404
+D 13:09:58:969 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg")
+W 13:09:58:970 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg - server replied: "
+D 13:09:58:970 | Icon downloader error
+D 13:09:58:984 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/34"  (data only)
+D 13:09:58:989 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:09:58:993 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:09:58:993 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:09:58:997 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/34"  (data only)
+D 13:09:59:049 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=34"
+D 13:09:59:066 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=34"
+D 13:10:02:541 | Reverting form changes
+D 13:10:04:527 | Update actions
+D 13:10:04:528 | Update actions
+D 13:10:04:529 | QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg") ""
+D 13:10:04:530 | Read buffer size: 0
+D 13:10:04:530 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/33"
+D 13:10:04:531 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/33"
+D 13:10:04:531 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:10:04:532 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:10:04:533 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:10:04:533 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:10:04:534 | Update actions
+D 13:10:04:534 | Update actions
+D 13:10:04:601 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:10:04:601 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=33"
+D 13:10:04:602 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=33"
+D 13:10:04:624 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/33"  (data only)
+D 13:10:04:629 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:10:04:631 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/33"  (data only)
+D 13:10:04:637 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:10:04:644 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:10:04:709 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=33"
+D 13:10:04:716 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=33"
+D 13:10:04:737 | NAM active changed: true
+D 13:10:04:879 | OnReadyRead http code: 404
+D 13:10:04:879 | NAM active changed: false
+D 13:10:04:880 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg")
+W 13:10:04:880 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg - server replied: "
+D 13:10:04:880 | Icon downloader error
+D 13:10:09:525 | Reverting form changes
+D 13:10:13:990 | Update actions
+D 13:10:13:991 | Update actions
+D 13:10:13:993 | QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg") ""
+D 13:10:13:993 | Read buffer size: 0
+D 13:10:13:994 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/32"
+D 13:10:13:994 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/32"
+D 13:10:13:995 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:10:13:995 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:10:13:996 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:10:13:997 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:10:13:998 | Update actions
+D 13:10:13:998 | Update actions
+D 13:10:14:068 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:10:14:069 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:10:14:069 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:10:14:085 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/32"  (data only)
+D 13:10:14:098 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:10:14:098 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/32"  (data only)
+D 13:10:14:099 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:10:14:105 | OnReadyRead http code: 404
+D 13:10:14:105 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg")
+W 13:10:14:105 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg - server replied: "
+D 13:10:14:106 | Icon downloader error
+D 13:10:14:110 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:10:14:171 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:10:14:179 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:10:15:325 | Reverting form changes
+D 13:10:16:510 | Update actions
+D 13:10:16:511 | Update actions
+D 13:10:16:512 | QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg") ""
+D 13:10:16:513 | Read buffer size: 0
+D 13:10:16:513 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/33"
+D 13:10:16:514 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/33"
+D 13:10:16:514 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:10:16:515 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:10:16:516 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:10:16:516 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:10:16:517 | Update actions
+D 13:10:16:517 | Update actions
+D 13:10:16:592 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:10:16:592 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=33"
+D 13:10:16:593 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=33"
+D 13:10:16:598 | OnReadyRead http code: 404
+D 13:10:16:599 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg")
+W 13:10:16:599 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg - server replied: "
+D 13:10:16:599 | Icon downloader error
+D 13:10:16:606 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:10:16:613 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/33"  (data only)
+D 13:10:16:621 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:10:16:627 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/33"  (data only)
+D 13:10:16:637 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:10:16:684 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=33"
+D 13:10:16:691 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=33"
+D 13:10:18:943 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:10:18:944 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:10:19:026 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:10:19:026 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:10:24:863 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:10:24:864 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:10:24:947 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:10:24:948 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:10:58:893 | Reverting form changes
+D 13:11:04:455 | Update actions
+D 13:11:04:456 | Update actions
+D 13:11:04:456 | QUrl("http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg") ""
+D 13:11:04:457 | Read buffer size: 0
+D 13:11:04:457 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/34"
+D 13:11:04:458 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/34"
+D 13:11:04:459 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:11:04:459 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:11:04:460 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:11:04:461 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:11:04:461 | Update actions
+D 13:11:04:462 | Update actions
+D 13:11:04:520 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:11:04:521 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=34"
+D 13:11:04:521 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=34"
+D 13:11:04:542 | OnReadyRead http code: 404
+D 13:11:04:542 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/34"  (data only)
+D 13:11:04:542 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg")
+W 13:11:04:542 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg - server replied: "
+D 13:11:04:543 | Icon downloader error
+D 13:11:04:548 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/34"  (data only)
+D 13:11:04:560 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:11:04:564 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:11:04:568 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:11:04:624 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=34"
+D 13:11:04:624 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=34"
+D 13:11:10:237 | Update actions
+D 13:11:13:022 | Try to submit: 34
+D 13:11:13:022 | Update actions
+D 13:11:13:171 | update action reply
+D 13:12:17:039 | Update actions
+D 13:12:17:041 | QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg") ""
+D 13:12:17:041 | Read buffer size: 0
+D 13:12:17:042 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/32"
+D 13:12:17:042 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/32"
+D 13:12:17:043 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:12:17:044 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:12:17:045 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:12:17:045 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:12:17:046 | Update actions
+D 13:12:17:130 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:12:17:131 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:12:17:132 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:12:17:139 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/32"  (data only)
+D 13:12:17:140 | OnReadyRead http code: 404
+D 13:12:17:140 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg")
+W 13:12:17:140 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg - server replied: "
+D 13:12:17:140 | Icon downloader error
+D 13:12:17:152 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/32"  (data only)
+D 13:12:17:158 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:12:17:165 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:12:17:180 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:12:17:221 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:12:17:225 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:12:20:725 | Reverting form changes
+D 13:15:31:831 | Update actions
+D 13:15:31:832 | Update actions
+D 13:15:31:833 | QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg") ""
+D 13:15:31:834 | Read buffer size: 0
+D 13:15:31:834 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/33"
+D 13:15:31:834 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/33"
+D 13:15:31:835 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:15:31:836 | Refresh on url: "http://panushkin.ru:8015/task?case_id=33"
+D 13:15:31:837 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:15:31:838 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:15:31:839 | Update actions
+D 13:15:31:840 | Update actions
+D 13:15:31:868 | QNetworkReplyHttpImplPrivate::_q_startOperation was called more than once QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg")
+D 13:15:31:906 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:15:31:906 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=33"
+D 13:15:31:907 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=33"
+D 13:15:31:922 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:15:31:947 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/33"  (data only)
+D 13:15:31:956 | Refresh response on  "http://panushkin.ru:8015/task?case_id=33"
+D 13:15:31:956 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/33"  (data only)
+D 13:15:31:958 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=33"
+D 13:15:31:984 | OnReadyRead http code: 404
+D 13:15:31:984 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg")
+W 13:15:31:985 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/33/icon.jpg - server replied: "
+D 13:15:31:985 | Icon downloader error
+D 13:15:32:003 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=33"
+D 13:15:32:027 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=33"
+D 13:15:34:133 | Reverting form changes
+D 13:15:37:175 | Update actions
+D 13:15:37:176 | Update actions
+D 13:15:37:177 | QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg") ""
+D 13:15:37:178 | Read buffer size: 0
+D 13:15:37:178 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/32"
+D 13:15:37:179 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/32"
+D 13:15:37:179 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:15:37:180 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:15:37:181 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:15:37:181 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:15:37:182 | Update actions
+D 13:15:37:182 | Update actions
+D 13:15:37:244 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:15:37:244 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:15:37:245 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:15:37:258 | OnReadyRead http code: 404
+D 13:15:37:258 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg")
+W 13:15:37:258 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg - server replied: "
+D 13:15:37:259 | Icon downloader error
+D 13:15:37:263 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/32"  (data only)
+D 13:15:37:277 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:15:37:279 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/32"  (data only)
+D 13:15:37:279 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:15:37:286 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:15:37:342 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:15:37:342 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:15:38:413 | Reverting form changes
+D 13:15:39:086 | Update actions
+D 13:15:39:087 | QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg") ""
+D 13:15:39:088 | Read buffer size: 0
+D 13:15:39:088 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/32"
+D 13:15:39:089 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/32"
+D 13:15:39:090 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:15:39:090 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:15:39:091 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:15:39:092 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:15:39:092 | Update actions
+D 13:15:39:157 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:15:39:157 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:15:39:158 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:15:39:168 | OnReadyRead http code: 404
+D 13:15:39:168 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg")
+W 13:15:39:168 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg - server replied: "
+D 13:15:39:168 | Icon downloader error
+D 13:15:39:186 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:15:39:191 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:15:39:194 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/32"  (data only)
+D 13:15:39:201 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/32"  (data only)
+D 13:15:39:205 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:15:39:251 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:15:39:270 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:15:40:341 | Reverting form changes
+D 13:15:42:102 | Update actions
+D 13:15:42:103 | QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg") ""
+D 13:15:42:104 | Read buffer size: 0
+D 13:15:42:105 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/32"
+D 13:15:42:105 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/32"
+D 13:15:42:106 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:15:42:107 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:15:42:107 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:15:42:108 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:15:42:109 | Update actions
+D 13:15:42:177 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:15:42:178 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:15:42:178 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:15:42:190 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/32"  (data only)
+D 13:15:42:195 | OnReadyRead http code: 404
+D 13:15:42:195 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg")
+W 13:15:42:195 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg - server replied: "
+D 13:15:42:196 | Icon downloader error
+D 13:15:42:198 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:15:42:200 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/32"  (data only)
+D 13:15:42:209 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:15:42:223 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:15:42:271 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:15:42:279 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:15:43:125 | Reverting form changes
+D 13:15:43:967 | Update actions
+D 13:15:43:968 | QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg") ""
+D 13:15:43:968 | Read buffer size: 0
+D 13:15:43:969 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/32"
+D 13:15:43:970 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/32"
+D 13:15:43:970 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:15:43:971 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:15:43:971 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:15:43:972 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:15:43:973 | Update actions
+D 13:15:44:038 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:15:44:039 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:15:44:039 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:15:44:051 | OnReadyRead http code: 404
+D 13:15:44:052 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg")
+W 13:15:44:052 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg - server replied: "
+D 13:15:44:052 | Icon downloader error
+D 13:15:44:055 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/32"  (data only)
+D 13:15:44:062 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:15:44:063 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/32"  (data only)
+D 13:15:44:075 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:15:44:080 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:15:44:133 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:15:44:139 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:15:47:759 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:15:47:760 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:15:47:845 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:15:47:846 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:15:49:203 | create action reply
+D 13:15:49:203 | Saved to server data QJsonValue(object, QJsonObject({"case_id":32,"description":null,"id":78,"sort_id":2,"title":"Занятие 2"}))
+D 13:15:51:846 | delete action reply
+D 13:15:52:707 | delete action reply
+D 13:15:53:175 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:15:53:175 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:15:53:258 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:15:53:260 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:15:54:397 | Reverting form changes
+D 13:15:55:943 | Update actions
+D 13:15:55:945 | QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg") ""
+D 13:15:55:945 | Read buffer size: 0
+D 13:15:55:946 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/32"
+D 13:15:55:946 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/32"
+D 13:15:55:947 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:15:55:948 | Refresh on url: "http://panushkin.ru:8015/task?case_id=32"
+D 13:15:55:948 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:15:55:949 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:15:55:950 | Update actions
+D 13:15:56:014 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:15:56:015 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:15:56:016 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:15:56:028 | OnReadyRead http code: 404
+D 13:15:56:028 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg")
+W 13:15:56:028 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/32/icon.jpg - server replied: "
+D 13:15:56:029 | Icon downloader error
+D 13:15:56:037 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/32"  (data only)
+D 13:15:56:049 | Refresh response on  "http://panushkin.ru:8015/task?case_id=32"
+D 13:15:56:056 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/32"  (data only)
+D 13:15:56:056 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=32"
+D 13:15:56:059 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:15:56:111 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=32"
+D 13:15:56:117 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=32"
+D 13:15:57:413 | Reverting form changes
+D 13:15:59:502 | Update actions
+D 13:15:59:504 | Update actions
+D 13:15:59:505 | QUrl("http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg") ""
+D 13:15:59:506 | Read buffer size: 0
+D 13:15:59:506 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/34"
+D 13:15:59:507 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/34"
+D 13:15:59:507 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:15:59:508 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:15:59:509 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:15:59:510 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:15:59:510 | Update actions
+D 13:15:59:511 | Update actions
+D 13:15:59:578 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:15:59:578 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=34"
+D 13:15:59:579 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=34"
+D 13:15:59:590 | OnReadyRead http code: 404
+D 13:15:59:591 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg")
+W 13:15:59:591 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg - server replied: "
+D 13:15:59:591 | Icon downloader error
+D 13:15:59:606 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/34"  (data only)
+D 13:15:59:607 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:15:59:616 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:15:59:616 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/34"  (data only)
+D 13:15:59:622 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:15:59:671 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=34"
+D 13:15:59:687 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=34"
+D 13:16:02:717 | Reverting form changes
+D 13:16:04:295 | Update actions
+D 13:16:04:296 | Update actions
+W 13:16:04:298 | Lookup column "partname" : Cant find id 1 in model "http://panushkin.ru:8015/user?city_id=1"
+D 13:16:04:298 | QUrl("http://panushkin.ru:8015/attachments/case/icon/25/icon.jpg") ""
+D 13:16:04:299 | Read buffer size: 0
+D 13:16:04:299 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/25"
+D 13:16:04:300 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/25"
+D 13:16:04:300 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:16:04:301 | Refresh on url: "http://panushkin.ru:8015/task?case_id=25"
+D 13:16:04:302 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:16:04:302 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:16:04:303 | Update actions
+D 13:16:04:303 | Update actions
+D 13:16:04:364 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:16:04:364 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=25"
+D 13:16:04:365 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=25"
+D 13:16:04:388 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/25"  (data only)
+D 13:16:04:397 | OnReadyRead http code: 404
+D 13:16:04:397 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/25"  (data only)
+D 13:16:04:397 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/25/icon.jpg")
+W 13:16:04:397 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/25/icon.jpg - server replied: "
+D 13:16:04:398 | Icon downloader error
+D 13:16:04:405 | Refresh response on  "http://panushkin.ru:8015/task?case_id=25"
+D 13:16:04:408 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:16:04:408 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:16:04:473 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=25"
+D 13:16:04:479 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=25"
+D 13:16:09:102 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:16:09:103 | Refresh on url: "http://panushkin.ru:8015/task?case_id=25"
+D 13:16:09:186 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:16:09:186 | Refresh response on  "http://panushkin.ru:8015/task?case_id=25"
+D 13:16:13:694 | Refresh on url: "http://panushkin.ru:8015/attachments/task/47"
+D 13:16:13:775 | Refresh response on  "http://panushkin.ru:8015/attachments/task/47"  (data only)
+D 13:16:15:493 | Refresh on url: "http://panushkin.ru:8015/attachments/task/46"
+D 13:16:15:573 | Refresh response on  "http://panushkin.ru:8015/attachments/task/46"  (data only)
+D 13:16:16:845 | Refresh on url: "http://panushkin.ru:8015/attachments/task/47"
+D 13:16:16:926 | Refresh response on  "http://panushkin.ru:8015/attachments/task/47"  (data only)
+D 13:16:17:238 | Refresh on url: "http://panushkin.ru:8015/attachments/task/46"
+D 13:16:17:317 | Refresh response on  "http://panushkin.ru:8015/attachments/task/46"  (data only)
+D 13:16:18:253 | Reverting form changes
+D 13:16:19:287 | Update actions
+D 13:16:19:288 | Refresh on url: "http://panushkin.ru:8015/task?case_id=25"
+D 13:16:19:288 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=25"
+D 13:16:19:290 | Update actions
+D 13:16:19:291 | QUrl("http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg") ""
+D 13:16:19:292 | Read buffer size: 0
+D 13:16:19:292 | Refresh on url: "http://panushkin.ru:8015/attachments/case/public/34"
+D 13:16:19:293 | Refresh on url: "http://panushkin.ru:8015/attachments/case/private/34"
+D 13:16:19:294 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:16:19:294 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:16:19:295 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:16:19:296 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:16:19:296 | Update actions
+D 13:16:19:296 | Update actions
+D 13:16:19:384 | OnReadyRead http code: 404
+D 13:16:19:384 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg")
+W 13:16:19:384 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/case/icon/34/icon.jpg - server replied: "
+D 13:16:19:384 | Icon downloader error
+D 13:16:19:385 | Refresh response on  "http://panushkin.ru:8015/attachments/case/public/34"  (data only)
+D 13:16:19:389 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:16:19:390 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:16:19:392 | Refresh response on  "http://panushkin.ru:8015/attachments/case/private/34"  (data only)
+D 13:16:19:398 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:16:19:436 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:16:19:436 | Refresh on url: "http://panushkin.ru:8015/case_achievement?case_id=34"
+D 13:16:19:436 | Refresh on url: "http://panushkin.ru:8015/case_required_achievement?case_id=34"
+D 13:16:19:439 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:16:19:466 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:16:19:486 | NAM active changed: true
+D 13:16:19:521 | Refresh response on  "http://panushkin.ru:8015/case_required_achievement?case_id=34"
+D 13:16:19:522 | NAM active changed: false
+D 13:16:19:523 | Refresh response on  "http://panushkin.ru:8015/case_achievement?case_id=34"
+D 13:16:20:449 | Refresh on url: "http://panushkin.ru:8015/attachments/task/52"
+D 13:16:20:451 | Refresh on url: "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:16:20:452 | Refresh on url: "http://panushkin.ru:8015/task?case_id=34"
+D 13:16:20:535 | Refresh response on  "http://panushkin.ru:8015/case_unit?case_id=34"
+D 13:16:20:539 | Refresh response on  "http://panushkin.ru:8015/attachments/task/52"  (data only)
+D 13:16:20:541 | Refresh response on  "http://panushkin.ru:8015/task?case_id=34"
+D 13:16:21:973 | Refresh on url: "http://panushkin.ru:8015/attachments/task/53"
+D 13:16:22:053 | Refresh response on  "http://panushkin.ru:8015/attachments/task/53"  (data only)
+D 13:16:23:477 | Refresh on url: "http://panushkin.ru:8015/attachments/task/52"
+D 13:16:23:557 | Refresh response on  "http://panushkin.ru:8015/attachments/task/52"  (data only)
+D 13:17:11:502 | Reverting form changes
+D 13:17:28:141 | Refresh on url: "http://panushkin.ru:8015/case"
+D 13:17:28:158 | Widget registered: "edtTitle"
+D 13:17:28:159 | Trying to find label widget: "lblTitle"
+D 13:17:28:159 | Found: false
+D 13:17:28:159 | Widget registered: "edtMinAge"
+D 13:17:28:159 | Trying to find label widget: "lblMinAge"
+D 13:17:28:159 | Found: false
+D 13:17:28:159 | Widget registered: "edtDescription"
+D 13:17:28:160 | Trying to find label widget: "lblDescription"
+D 13:17:28:160 | Found: false
+D 13:17:28:160 | Widget registered: "edtPassingScore"
+D 13:17:28:160 | Trying to find label widget: "lblPassingScore"
+D 13:17:28:161 | Found: false
+D 13:17:28:161 | Found button box: false
+D 13:17:28:161 | "OK" "Отмена"
+D 13:17:28:163 | Update actions
+D 13:17:28:208 | Refresh response on  "http://panushkin.ru:8015/case"
+D 13:17:30:390 | Send request: QUrl("http://panushkin.ru:8015/achievementTree?city_id=1")
+D 13:17:30:391 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 13:17:30:392 | Refresh on url: "http://panushkin.ru:8015/achievement_group"
+D 13:17:30:474 | Refresh response (tree model) on  "http://panushkin.ru:8015/achievementTree?city_id=1"
+D 13:17:30:512 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 13:17:30:577 | Refresh response on  "http://panushkin.ru:8015/achievement_group"
+D 13:17:35:275 | TreeRestTableModel destructor

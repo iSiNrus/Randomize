@@ -1,0 +1,1031 @@
+D 13:55:52:227 | 
+D 13:55:52:228 | 
+D 13:55:52:228 | 
+D 13:55:52:228 | Build: Thu Jun 11 06:23:47 2020
+D 13:55:52:228 | Log started: "2020-11-09"
+D 13:55:52:228 | Write to file: "./2020-09-11-QuantumDesktop.log"
+D 13:55:52:229 | ==========================================================================================
+D 13:55:52:229 | Data module singleton constructor
+D 13:55:52:229 | Load: "server/host" QVariant(QString, "panushkin.ru")
+D 13:55:52:229 | Load: "server/port" QVariant(QString, "8015")
+D 13:55:52:229 | Load: "server/ssl" QVariant(QString, "false")
+D 13:55:52:230 | Base server url: "http://panushkin.ru:8015/"
+D 13:55:52:239 | Refresh on url: "http://panushkin.ru:8015/achievement_children"
+D 13:55:52:322 | Load: "server/username" QVariant(QString, "arochkin")
+D 13:55:52:372 | QNetworkReplyHttpImplPrivate::_q_startOperation was called more than once QUrl("http://panushkin.ru:8015/achievement_children")
+D 13:55:52:455 | NAM active changed: true
+D 13:55:52:516 | NAM active changed: false
+D 13:55:52:516 | Refresh response on  "http://panushkin.ru:8015/achievement_children"
+D 13:55:52:516 | Response error on "http://panushkin.ru:8015/achievement_children" : 0 ""
+D 13:55:57:764 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 13:55:57:765 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 13:55:57:766 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 13:55:57:767 | Refresh on url: "http://panushkin.ru:8015/quantum?city_id=1"
+D 13:55:57:767 | Save: "server/username" QVariant(QString, "arochkin")
+D 13:55:57:856 | Refresh response on  "http://panushkin.ru:8015/quantum?city_id=1"
+D 13:55:57:870 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 13:55:57:870 | NAM active changed: true
+D 13:55:57:884 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 13:55:57:885 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 13:55:57:885 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 13:55:57:944 | NAM active changed: false
+D 13:55:57:944 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 13:55:57:963 | QUrl("http://panushkin.ru:8015/attachments/sysuser/appdata/24/useravatar.jpg") ""
+D 13:55:57:964 | Read buffer size: 0
+D 13:55:58:055 | OnReadyRead http code: 404
+D 13:55:58:055 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/sysuser/appdata/24/useravatar.jpg")
+W 13:55:58:056 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/sysuser/appdata/24/useravatar.jpg - server replied: "
+D 13:55:58:056 | Ававтар не загружен
+D 13:56:26:633 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 13:56:26:634 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 13:56:26:665 | Widget registered: "edtFirstName"
+D 13:56:26:666 | Trying to find label widget: "lblFirstName"
+D 13:56:26:666 | Found: false
+D 13:56:26:666 | Widget registered: "edtPassword"
+D 13:56:26:667 | Trying to find label widget: "lblPassword"
+D 13:56:26:667 | Found: false
+D 13:56:26:667 | Widget registered: "edtUsername"
+D 13:56:26:667 | Trying to find label widget: "lblUsername"
+D 13:56:26:668 | Found: false
+D 13:56:26:668 | Widget registered: "edtPhone"
+D 13:56:26:668 | Trying to find label widget: "lblPhone"
+D 13:56:26:668 | Found: false
+D 13:56:26:669 | Widget registered: "edtEmail"
+D 13:56:26:669 | Trying to find label widget: "lblEmail"
+D 13:56:26:669 | Found: false
+D 13:56:26:669 | Widget registered: "edtNumber"
+D 13:56:26:670 | Trying to find label widget: "lblNumber"
+D 13:56:26:670 | Found: false
+D 13:56:26:670 | Widget registered: "edtPassportOffice"
+D 13:56:26:671 | Trying to find label widget: "lblPassportOffice"
+D 13:56:26:671 | Found: false
+D 13:56:26:671 | Widget registered: "edtCode"
+D 13:56:26:672 | Trying to find label widget: "lblCode"
+D 13:56:26:672 | Found: true
+D 13:56:26:672 | Widget registered: "cmbDocType"
+D 13:56:26:673 | Trying to find label widget: "lblDocType"
+D 13:56:26:673 | Found: true
+D 13:56:26:673 | Widget registered: "edtBirthDate"
+D 13:56:26:674 | Trying to find label widget: "lblBirthDate"
+D 13:56:26:674 | Found: false
+D 13:56:26:674 | Widget registered: "cmbCity"
+D 13:56:26:675 | Trying to find label widget: "lblCity"
+D 13:56:26:675 | Found: false
+D 13:56:26:675 | Widget registered: "rbMale"
+D 13:56:26:676 | Trying to find label widget: "lblMale"
+D 13:56:26:676 | Found: false
+D 13:56:26:676 | Widget registered: "cmbUserType"
+D 13:56:26:676 | Trying to find label widget: "lblUserType"
+D 13:56:26:677 | Found: false
+D 13:56:26:677 | Widget registered: "chkActive"
+D 13:56:26:677 | Trying to find label widget: "lblActive"
+D 13:56:26:677 | Found: false
+D 13:56:26:678 | Widget registered: "edtDisableReason"
+D 13:56:26:678 | Trying to find label widget: "lblDisableReason"
+D 13:56:26:678 | Found: false
+D 13:56:26:678 | Widget registered: "rbFirstShift"
+D 13:56:26:679 | Trying to find label widget: "lblFirstShift"
+D 13:56:26:679 | Found: false
+D 13:56:26:679 | Widget registered: "chkSocialBenefits"
+D 13:56:26:679 | Trying to find label widget: "lblSocialBenefits"
+D 13:56:26:680 | Found: false
+D 13:56:26:680 | Widget registered: "edtSocialBenefitsDescription"
+D 13:56:26:680 | Trying to find label widget: "lblSocialBenefitsDescription"
+D 13:56:26:680 | Found: false
+D 13:56:26:681 | Unsupported widget class
+D 13:56:26:681 | Widget registered: "edtSpecialization"
+D 13:56:26:681 | Trying to find label widget: "lblSpecialization"
+D 13:56:26:681 | Found: false
+D 13:56:26:682 | Widget registered: "edtTeacherNumber"
+D 13:56:26:682 | Trying to find label widget: "lblTeacherNumber"
+D 13:56:26:682 | Found: false
+D 13:56:26:683 | Widget registered: "edtSerial"
+D 13:56:26:683 | Trying to find label widget: "lblSerial"
+D 13:56:26:683 | Found: false
+D 13:56:26:684 | Widget registered: "rbStaff"
+D 13:56:26:684 | Trying to find label widget: "lblStaff"
+D 13:56:26:684 | Found: false
+D 13:56:26:685 | Widget registered: "edtLastName"
+D 13:56:26:685 | Trying to find label widget: "lblLastName"
+D 13:56:26:685 | Found: false
+D 13:56:26:686 | Widget registered: "edtRegistrationAddress"
+D 13:56:26:686 | Trying to find label widget: "lblRegistrationAddress"
+D 13:56:26:686 | Found: false
+D 13:56:26:686 | Widget registered: "edtSecondName"
+D 13:56:26:687 | Trying to find label widget: "lblSecondName"
+D 13:56:26:687 | Found: false
+D 13:56:26:687 | Widget registered: "edtActualAddress"
+D 13:56:26:688 | Trying to find label widget: "lblActualAddress"
+D 13:56:26:688 | Found: false
+D 13:56:26:688 | Widget registered: "edtIssueDate"
+D 13:56:26:689 | Trying to find label widget: "lblIssueDate"
+D 13:56:26:689 | Found: false
+D 13:56:26:689 | Found button box: false
+D 13:56:26:689 | "OK" "Отмена"
+D 13:56:26:691 | Update actions
+D 13:56:26:765 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 13:56:26:766 | Update actions
+D 13:56:26:766 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 13:56:26:766 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 13:56:26:818 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 13:59:16:131 | TreeRestTableModel destructor
+D 14:10:24:361 | 
+D 14:10:24:362 | 
+D 14:10:24:362 | 
+D 14:10:24:362 | Build: Thu Jun 11 06:23:47 2020
+D 14:10:24:362 | Log started: "2020-11-09"
+D 14:10:24:363 | Write to file: "./2020-09-11-QuantumDesktop.log"
+D 14:10:24:363 | ==========================================================================================
+D 14:10:24:363 | Data module singleton constructor
+D 14:10:24:363 | Load: "server/host" QVariant(QString, "panushkin.ru")
+D 14:10:24:364 | Load: "server/port" QVariant(QString, "8015")
+D 14:10:24:364 | Load: "server/ssl" QVariant(QString, "false")
+D 14:10:24:364 | Base server url: "http://panushkin.ru:8015/"
+D 14:10:24:378 | Refresh on url: "http://panushkin.ru:8015/achievement_children"
+D 14:10:24:447 | Load: "server/username" QVariant(QString, "arochkin")
+D 14:10:24:591 | NAM active changed: true
+D 14:10:25:092 | NAM active changed: false
+D 14:10:25:093 | Refresh response on  "http://panushkin.ru:8015/achievement_children"
+D 14:10:25:094 | Response error on "http://panushkin.ru:8015/achievement_children" : 0 ""
+D 14:10:40:698 | NAM active changed: true
+D 14:10:41:117 | NAM active changed: false
+D 14:10:41:119 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:10:41:121 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:10:41:123 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:10:41:125 | Refresh on url: "http://panushkin.ru:8015/quantum?city_id=1"
+D 14:10:41:127 | Save: "server/username" QVariant(QString, "mitryashkin")
+D 14:10:41:287 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:10:41:319 | NAM active changed: true
+D 14:10:41:371 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:10:41:373 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 14:10:41:375 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:10:41:425 | Refresh response on  "http://panushkin.ru:8015/quantum?city_id=1"
+D 14:10:41:659 | NAM active changed: false
+D 14:10:41:661 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 14:10:41:734 | QUrl("http://panushkin.ru:8015/attachments/sysuser/appdata/23/useravatar.jpg") ""
+D 14:10:41:735 | Read buffer size: 0
+D 14:10:41:876 | OnReadyRead http code: 404
+D 14:10:41:877 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/sysuser/appdata/23/useravatar.jpg")
+W 14:10:41:877 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/sysuser/appdata/23/useravatar.jpg - server replied: "
+D 14:10:41:878 | Ававтар не загружен
+D 14:11:14:947 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:11:14:948 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:11:14:994 | Widget registered: "edtFirstName"
+D 14:11:14:995 | Trying to find label widget: "lblFirstName"
+D 14:11:14:995 | Found: false
+D 14:11:14:996 | Widget registered: "edtPassword"
+D 14:11:14:996 | Trying to find label widget: "lblPassword"
+D 14:11:14:996 | Found: false
+D 14:11:14:997 | Widget registered: "edtUsername"
+D 14:11:14:997 | Trying to find label widget: "lblUsername"
+D 14:11:14:997 | Found: false
+D 14:11:14:997 | Widget registered: "edtPhone"
+D 14:11:14:998 | Trying to find label widget: "lblPhone"
+D 14:11:14:998 | Found: false
+D 14:11:14:998 | Widget registered: "edtEmail"
+D 14:11:14:999 | Trying to find label widget: "lblEmail"
+D 14:11:14:999 | Found: false
+D 14:11:14:999 | Widget registered: "edtNumber"
+D 14:11:14:999 | Trying to find label widget: "lblNumber"
+D 14:11:15:000 | Found: false
+D 14:11:15:000 | Widget registered: "edtPassportOffice"
+D 14:11:15:000 | Trying to find label widget: "lblPassportOffice"
+D 14:11:15:000 | Found: false
+D 14:11:15:001 | Widget registered: "edtCode"
+D 14:11:15:001 | Trying to find label widget: "lblCode"
+D 14:11:15:001 | Found: true
+D 14:11:15:002 | Widget registered: "cmbDocType"
+D 14:11:15:002 | Trying to find label widget: "lblDocType"
+D 14:11:15:002 | Found: true
+D 14:11:15:003 | Widget registered: "edtBirthDate"
+D 14:11:15:003 | Trying to find label widget: "lblBirthDate"
+D 14:11:15:003 | Found: false
+D 14:11:15:003 | Widget registered: "cmbCity"
+D 14:11:15:004 | Trying to find label widget: "lblCity"
+D 14:11:15:004 | Found: false
+D 14:11:15:004 | Widget registered: "rbMale"
+D 14:11:15:004 | Trying to find label widget: "lblMale"
+D 14:11:15:005 | Found: false
+D 14:11:15:005 | Widget registered: "cmbUserType"
+D 14:11:15:005 | Trying to find label widget: "lblUserType"
+D 14:11:15:006 | Found: false
+D 14:11:15:006 | Widget registered: "chkActive"
+D 14:11:15:006 | Trying to find label widget: "lblActive"
+D 14:11:15:006 | Found: false
+D 14:11:15:007 | Widget registered: "edtDisableReason"
+D 14:11:15:007 | Trying to find label widget: "lblDisableReason"
+D 14:11:15:007 | Found: false
+D 14:11:15:007 | Widget registered: "rbFirstShift"
+D 14:11:15:008 | Trying to find label widget: "lblFirstShift"
+D 14:11:15:008 | Found: false
+D 14:11:15:008 | Widget registered: "chkSocialBenefits"
+D 14:11:15:009 | Trying to find label widget: "lblSocialBenefits"
+D 14:11:15:009 | Found: false
+D 14:11:15:009 | Widget registered: "edtSocialBenefitsDescription"
+D 14:11:15:010 | Trying to find label widget: "lblSocialBenefitsDescription"
+D 14:11:15:010 | Found: false
+D 14:11:15:010 | Unsupported widget class
+D 14:11:15:010 | Widget registered: "edtSpecialization"
+D 14:11:15:011 | Trying to find label widget: "lblSpecialization"
+D 14:11:15:011 | Found: false
+D 14:11:15:011 | Widget registered: "edtTeacherNumber"
+D 14:11:15:012 | Trying to find label widget: "lblTeacherNumber"
+D 14:11:15:012 | Found: false
+D 14:11:15:012 | Widget registered: "edtSerial"
+D 14:11:15:012 | Trying to find label widget: "lblSerial"
+D 14:11:15:013 | Found: false
+D 14:11:15:013 | Widget registered: "rbStaff"
+D 14:11:15:013 | Trying to find label widget: "lblStaff"
+D 14:11:15:013 | Found: false
+D 14:11:15:014 | Widget registered: "edtLastName"
+D 14:11:15:014 | Trying to find label widget: "lblLastName"
+D 14:11:15:014 | Found: false
+D 14:11:15:015 | Widget registered: "edtRegistrationAddress"
+D 14:11:15:015 | Trying to find label widget: "lblRegistrationAddress"
+D 14:11:15:015 | Found: false
+D 14:11:15:015 | Widget registered: "edtSecondName"
+D 14:11:15:016 | Trying to find label widget: "lblSecondName"
+D 14:11:15:016 | Found: false
+D 14:11:15:016 | Widget registered: "edtActualAddress"
+D 14:11:15:016 | Trying to find label widget: "lblActualAddress"
+D 14:11:15:017 | Found: false
+D 14:11:15:017 | Widget registered: "edtIssueDate"
+D 14:11:15:017 | Trying to find label widget: "lblIssueDate"
+D 14:11:15:018 | Found: false
+D 14:11:15:018 | Found button box: false
+D 14:11:15:018 | "OK" "Cancel"
+D 14:11:15:021 | Update actions
+D 14:11:15:153 | NAM active changed: true
+D 14:11:15:429 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:11:15:431 | Update actions
+D 14:11:19:111 | NAM active changed: false
+D 14:11:19:113 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:11:19:114 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 14:11:19:321 | NAM active changed: true
+D 14:11:23:839 | NAM active changed: false
+D 14:11:23:840 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 14:11:25:010 | Refresh on url: "http://panushkin.ru:8015/case"
+D 14:11:25:033 | Widget registered: "edtTitle"
+D 14:11:25:033 | Trying to find label widget: "lblTitle"
+D 14:11:25:034 | Found: false
+D 14:11:25:034 | Widget registered: "edtMinAge"
+D 14:11:25:034 | Trying to find label widget: "lblMinAge"
+D 14:11:25:034 | Found: false
+D 14:11:25:035 | Widget registered: "edtDescription"
+D 14:11:25:035 | Trying to find label widget: "lblDescription"
+D 14:11:25:035 | Found: false
+D 14:11:25:036 | Widget registered: "edtPassingScore"
+D 14:11:25:036 | Trying to find label widget: "lblPassingScore"
+D 14:11:25:036 | Found: false
+D 14:11:25:036 | Found button box: false
+D 14:11:25:037 | "OK" "Cancel"
+D 14:11:25:039 | Update actions
+D 14:11:25:222 | NAM active changed: true
+D 14:11:25:353 | NAM active changed: false
+D 14:11:25:358 | Refresh response on  "http://panushkin.ru:8015/case"
+D 14:11:32:033 | Send request: QUrl("http://panushkin.ru:8015/achievementTree?city_id=1")
+D 14:11:32:034 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 14:11:32:035 | Refresh on url: "http://panushkin.ru:8015/achievement_group"
+D 14:11:32:228 | NAM active changed: true
+D 14:11:33:397 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 14:11:33:400 | Refresh response on  "http://panushkin.ru:8015/achievement_group"
+D 14:11:35:346 | Refresh on url: "http://panushkin.ru:8015/quantum?city_id=1"
+D 14:11:35:351 | Widget registered: "edtName"
+D 14:11:35:351 | Trying to find label widget: "lblName"
+D 14:11:35:351 | Found: true
+D 14:11:35:352 | Widget registered: "edtDescription"
+D 14:11:35:352 | Trying to find label widget: "lblDescription"
+D 14:11:35:352 | Found: true
+D 14:11:35:353 | Widget registered: "cmbCity"
+D 14:11:35:353 | Trying to find label widget: "lblCity"
+D 14:11:35:353 | Found: true
+D 14:11:35:354 | Found button box: false
+D 14:11:35:354 | "OK" "Cancel"
+D 14:11:35:356 | Update actions
+D 14:11:35:558 | Refresh response (tree model) on  "http://panushkin.ru:8015/achievementTree?city_id=1"
+D 14:11:36:285 | NAM active changed: false
+D 14:11:36:286 | Refresh response on  "http://panushkin.ru:8015/quantum?city_id=1"
+D 14:12:26:415 | Refresh on url: "http://panushkin.ru:8015/quantum?city_id=1"
+D 14:12:26:416 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:12:26:416 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:12:26:460 | Refresh on url: "http://panushkin.ru:8015/timing_grid_unit"
+D 14:12:26:463 | Widget registered: "edtTitle"
+D 14:12:26:463 | Trying to find label widget: "lblTitle"
+D 14:12:26:463 | Found: false
+D 14:12:26:464 | Widget registered: "cmbQuantum"
+D 14:12:26:464 | Trying to find label widget: "lblQuantum"
+D 14:12:26:464 | Found: false
+D 14:12:26:465 | Widget registered: "edtMinAge"
+D 14:12:26:465 | Trying to find label widget: "lblMinAge"
+D 14:12:26:465 | Found: false
+D 14:12:26:466 | Widget registered: "cmbTeacher"
+D 14:12:26:466 | Trying to find label widget: "lblTeacher"
+D 14:12:26:466 | Found: false
+D 14:12:26:467 | Widget registered: "edtMaxStudent"
+D 14:12:26:467 | Trying to find label widget: "lblMaxStudent"
+D 14:12:26:467 | Found: false
+D 14:12:26:468 | Widget registered: "edtMinStudent"
+D 14:12:26:468 | Trying to find label widget: "lblMinStudent"
+D 14:12:26:468 | Found: false
+D 14:12:26:468 | Widget registered: "edtFinishDate"
+D 14:12:26:469 | Trying to find label widget: "lblFinishDate"
+D 14:12:26:469 | Found: false
+D 14:12:26:469 | Widget registered: "edtStartDate"
+D 14:12:26:469 | Trying to find label widget: "lblStartDate"
+D 14:12:26:470 | Found: false
+D 14:12:26:470 | Widget registered: "chkOptional"
+D 14:12:26:470 | Trying to find label widget: "lblOptional"
+D 14:12:26:471 | Found: false
+D 14:12:26:471 | Widget registered: "cmbSubTeacher"
+D 14:12:26:471 | Trying to find label widget: "lblSubTeacher"
+D 14:12:26:471 | Found: false
+D 14:12:26:482 | Found button box: false
+D 14:12:26:482 | "OK" "Cancel"
+D 14:12:26:484 | Update actions
+D 14:12:26:583 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:12:26:584 | Refresh response on  "http://panushkin.ru:8015/quantum?city_id=1"
+D 14:12:26:584 | Update actions
+D 14:12:26:585 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:12:26:585 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:12:26:586 | "Send request http://panushkin.ru:8015/adminSchedule?city_id=1"
+D 14:12:26:586 | Refresh on url: "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:12:26:596 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:12:26:597 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 14:12:26:616 | NAM active changed: true
+D 14:12:26:682 | Refresh response on  "http://panushkin.ru:8015/timing_grid_unit"
+D 14:12:26:849 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:12:26:850 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1&sysuser_type_id=3"
+D 14:12:26:850 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:12:26:850 | "Refresh reply received http://panushkin.ru:8015/adminSchedule?city_id=1"
+D 14:12:26:940 | Refresh response on  "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:12:26:940 | Refresh on url: "http://panushkin.ru:8015/timing_grid_unit?timing_grid_id=0"
+D 14:12:26:941 | Refresh on url: "http://panushkin.ru:8015/learning_group_hours?learning_group_id=-1"
+D 14:12:26:971 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 14:12:26:972 | Refresh on url: "http://panushkin.ru:8015/learning_group"
+D 14:12:27:072 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1&sysuser_type_id=3"
+D 14:12:27:129 | Schedule refresh reply:
+D 14:12:27:130 | "[\n]\n"
+D 14:12:27:130 | Timing grid reply:
+D 14:12:27:131 | "[\n]\n"
+D 14:12:27:158 | NAM active changed: false
+D 14:12:27:158 | Refresh response on  "http://panushkin.ru:8015/learning_group"
+D 14:12:34:767 | Update actions
+D 14:12:34:770 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:12:34:772 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:12:34:774 | "Send request http://panushkin.ru:8015/adminSchedule?city_id=1"
+D 14:12:34:777 | Refresh on url: "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:12:34:781 | Refresh on url: "http://panushkin.ru:8015/case"
+D 14:12:34:783 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:12:34:785 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:12:34:787 | Refresh on url: "http://panushkin.ru:8015/lesson?learning_group_id=13"
+D 14:12:34:788 | Refresh on url: "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:12:34:790 | Update actions
+D 14:12:34:791 | Update actions
+D 14:12:34:943 | Refresh response on  "http://panushkin.ru:8015/case"
+D 14:12:34:944 | Refresh on url: "http://panushkin.ru:8015/learning_group_case?learning_group_id=13"
+D 14:12:34:953 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:12:34:954 | "Refresh reply received http://panushkin.ru:8015/adminSchedule?city_id=1"
+D 14:12:34:968 | NAM active changed: true
+D 14:12:34:975 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:12:34:976 | Refresh response on  "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:12:34:976 | Refresh on url: "http://panushkin.ru:8015/timing_grid_unit?timing_grid_id=1"
+D 14:12:34:977 | Refresh on url: "http://panushkin.ru:8015/learning_group_hours?learning_group_id=13"
+D 14:12:34:978 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:12:34:978 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 14:12:34:979 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1&sysuser_type_id=3"
+D 14:12:35:113 | Refresh response on  "http://panushkin.ru:8015/lesson?learning_group_id=13"
+D 14:12:35:114 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:12:35:115 | Refresh response on  "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:12:35:115 | Refresh on url: "http://panushkin.ru:8015/timing_grid_unit?timing_grid_id=1"
+D 14:12:35:115 | Refresh on url: "http://panushkin.ru:8015/learning_group_hours?learning_group_id=13"
+D 14:12:35:116 | Refresh response on  "http://panushkin.ru:8015/learning_group_case?learning_group_id=13"
+D 14:12:37:666 | Schedule refresh reply:
+D 14:12:37:667 | "[\n    {\n        \"day_of_week\": 1,\n        \"id\": 34,\n        \"learning_group_id\": 13,\n        \"order_num\": 2\n    },\n    {\n        \"day_of_week\": 1,\n        \"id\": 35,\n        \"learning_group_id\": 13,\n        \"order_num\": 3\n    },\n    {\n        \"day_of_week\": 1,\n        \"id\": 36,\n        \"learning_group_id\": 13,\n        \"order_num\": 4\n    },\n    {\n        \"day_of_week\": 4,\n        \"id\": 38,\n        \"learning_group_id\": 13,\n        \"order_num\": 3\n    },\n    {\n        \"day_of_week\": 4,\n        \"id\": 39,\n        \"learning_group_id\": 13,\n        \"order_num\": 4\n    }\n]\n"
+D 14:12:37:678 | Timing grid reply:
+D 14:12:37:680 | "[\n    {\n        \"begin_time\": \"08:30:00.000\",\n        \"day_type\": 0,\n        \"id\": 48,\n        \"order_num\": 1,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"09:25:00.000\",\n        \"day_type\": 0,\n        \"id\": 49,\n        \"order_num\": 2,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"10:20:00.000\",\n        \"day_type\": 0,\n        \"id\": 50,\n        \"order_num\": 3,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"11:15:00.000\",\n        \"day_type\": 0,\n        \"id\": 51,\n        \"order_num\": 4,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"12:10:00.000\",\n        \"day_type\": 0,\n        \"id\": 52,\n        \"order_num\": 5,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"13:05:00.000\",\n        \"day_type\": 0,\n        \"id\": 53,\n        \"order_num\": 6,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"14:00:00.000\",\n        \"day_type\": 0,\n        \"id\": 54,\n        \"order_num\": 7,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"14:55:00.000\",\n        \"day_type\": 0,\n        \"id\": 55,\n        \"order_num\": 8,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"15:50:00.000\",\n        \"day_type\": 0,\n        \"id\": 56,\n        \"order_num\": 9,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"16:45:00.000\",\n        \"day_type\": 0,\n        \"id\": 57,\n        \"order_num\": 10,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"17:40:00.000\",\n        \"day_type\": 0,\n        \"id\": 58,\n        \"order_num\": 11,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"18:35:00.000\",\n        \"day_type\": 0,\n        \"id\": 59,\n        \"order_num\": 12,\n        \"timing_grid_id\": 1\n    }\n]\n"
+D 14:12:37:683 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1&sysuser_type_id=3"
+D 14:12:37:684 | Update actions
+D 14:12:37:687 | Update actions
+D 14:12:37:690 | Schedule refresh reply:
+D 14:12:37:692 | "[\n    {\n        \"day_of_week\": 1,\n        \"id\": 34,\n        \"learning_group_id\": 13,\n        \"order_num\": 2\n    },\n    {\n        \"day_of_week\": 1,\n        \"id\": 35,\n        \"learning_group_id\": 13,\n        \"order_num\": 3\n    },\n    {\n        \"day_of_week\": 1,\n        \"id\": 36,\n        \"learning_group_id\": 13,\n        \"order_num\": 4\n    },\n    {\n        \"day_of_week\": 4,\n        \"id\": 38,\n        \"learning_group_id\": 13,\n        \"order_num\": 3\n    },\n    {\n        \"day_of_week\": 4,\n        \"id\": 39,\n        \"learning_group_id\": 13,\n        \"order_num\": 4\n    }\n]\n"
+D 14:12:37:762 | Timing grid reply:
+D 14:12:37:763 | "[\n    {\n        \"begin_time\": \"08:30:00.000\",\n        \"day_type\": 0,\n        \"id\": 48,\n        \"order_num\": 1,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"09:25:00.000\",\n        \"day_type\": 0,\n        \"id\": 49,\n        \"order_num\": 2,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"10:20:00.000\",\n        \"day_type\": 0,\n        \"id\": 50,\n        \"order_num\": 3,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"11:15:00.000\",\n        \"day_type\": 0,\n        \"id\": 51,\n        \"order_num\": 4,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"12:10:00.000\",\n        \"day_type\": 0,\n        \"id\": 52,\n        \"order_num\": 5,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"13:05:00.000\",\n        \"day_type\": 0,\n        \"id\": 53,\n        \"order_num\": 6,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"14:00:00.000\",\n        \"day_type\": 0,\n        \"id\": 54,\n        \"order_num\": 7,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"14:55:00.000\",\n        \"day_type\": 0,\n        \"id\": 55,\n        \"order_num\": 8,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"15:50:00.000\",\n        \"day_type\": 0,\n        \"id\": 56,\n        \"order_num\": 9,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"16:45:00.000\",\n        \"day_type\": 0,\n        \"id\": 57,\n        \"order_num\": 10,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"17:40:00.000\",\n        \"day_type\": 0,\n        \"id\": 58,\n        \"order_num\": 11,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"18:35:00.000\",\n        \"day_type\": 0,\n        \"id\": 59,\n        \"order_num\": 12,\n        \"timing_grid_id\": 1\n    }\n]\n"
+D 14:12:38:508 | NAM active changed: false
+D 14:12:38:509 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 14:12:38:512 | Refresh on url: "http://panushkin.ru:8015/user_learning_group?learning_group_id=13"
+D 14:12:38:723 | NAM active changed: true
+D 14:12:38:823 | NAM active changed: false
+D 14:12:38:824 | Refresh response on  "http://panushkin.ru:8015/user_learning_group?learning_group_id=13"
+D 14:12:56:842 | Reverting form changes
+D 14:12:58:390 | Update actions
+D 14:12:58:393 | Update actions
+D 14:12:58:395 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:12:58:397 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:12:58:399 | "Send request http://panushkin.ru:8015/adminSchedule?city_id=1"
+D 14:12:58:400 | Refresh on url: "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:12:58:403 | Refresh on url: "http://panushkin.ru:8015/case"
+D 14:12:58:405 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:12:58:407 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:12:58:410 | Refresh on url: "http://panushkin.ru:8015/lesson?learning_group_id=14"
+D 14:12:58:411 | Refresh on url: "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:12:58:412 | Update actions
+D 14:12:58:412 | Update actions
+D 14:12:58:516 | "Refresh reply received http://panushkin.ru:8015/adminSchedule?city_id=1"
+D 14:12:58:546 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:12:58:579 | Refresh response on  "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:12:58:580 | Refresh on url: "http://panushkin.ru:8015/timing_grid_unit?timing_grid_id=0"
+D 14:12:58:581 | Refresh on url: "http://panushkin.ru:8015/learning_group_hours?learning_group_id=14"
+D 14:12:58:585 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:12:58:585 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 14:12:58:586 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1&sysuser_type_id=3"
+D 14:12:58:586 | Refresh response on  "http://panushkin.ru:8015/case"
+D 14:12:58:587 | Refresh on url: "http://panushkin.ru:8015/learning_group_case?learning_group_id=14"
+D 14:12:58:587 | NAM active changed: true
+D 14:12:58:635 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:12:58:689 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:12:58:690 | Refresh response on  "http://panushkin.ru:8015/lesson?learning_group_id=14"
+D 14:12:58:724 | Refresh response on  "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:12:58:724 | Refresh on url: "http://panushkin.ru:8015/timing_grid_unit?timing_grid_id=0"
+D 14:12:58:725 | Refresh on url: "http://panushkin.ru:8015/learning_group_hours?learning_group_id=14"
+D 14:12:58:767 | Schedule refresh reply:
+D 14:12:58:768 | "[\n]\n"
+D 14:12:58:774 | Timing grid reply:
+D 14:12:58:775 | "[\n]\n"
+D 14:12:58:775 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 14:12:58:776 | Refresh on url: "http://panushkin.ru:8015/user_learning_group?learning_group_id=14"
+D 14:12:58:852 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1&sysuser_type_id=3"
+D 14:12:58:855 | Update actions
+D 14:12:58:857 | Update actions
+D 14:12:58:860 | Refresh response on  "http://panushkin.ru:8015/learning_group_case?learning_group_id=14"
+D 14:12:58:861 | Timing grid reply:
+D 14:12:58:861 | "[\n]\n"
+D 14:12:58:901 | Schedule refresh reply:
+D 14:12:58:902 | "[\n]\n"
+D 14:12:58:910 | NAM active changed: false
+D 14:12:58:911 | Refresh response on  "http://panushkin.ru:8015/user_learning_group?learning_group_id=14"
+D 14:13:05:299 | Reverting form changes
+D 14:13:06:990 | Update actions
+D 14:13:06:992 | Update actions
+D 14:13:06:992 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:13:06:992 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:13:06:993 | "Send request http://panushkin.ru:8015/adminSchedule?city_id=1"
+D 14:13:06:994 | Refresh on url: "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:13:06:995 | Refresh on url: "http://panushkin.ru:8015/case"
+D 14:13:06:995 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:13:06:996 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:13:06:996 | Refresh on url: "http://panushkin.ru:8015/lesson?learning_group_id=13"
+D 14:13:06:997 | Refresh on url: "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:13:06:997 | Update actions
+D 14:13:06:998 | Update actions
+D 14:13:07:169 | Refresh response on  "http://panushkin.ru:8015/case"
+D 14:13:07:170 | Refresh on url: "http://panushkin.ru:8015/learning_group_case?learning_group_id=13"
+D 14:13:07:171 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:13:07:178 | "Refresh reply received http://panushkin.ru:8015/adminSchedule?city_id=1"
+D 14:13:07:197 | NAM active changed: true
+D 14:13:07:228 | Refresh response on  "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:13:07:229 | Refresh on url: "http://panushkin.ru:8015/timing_grid_unit?timing_grid_id=1"
+D 14:13:07:230 | Refresh on url: "http://panushkin.ru:8015/learning_group_hours?learning_group_id=13"
+D 14:13:07:235 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:13:07:236 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:13:07:236 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 14:13:07:237 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1&sysuser_type_id=3"
+D 14:13:07:281 | Refresh response on  "http://panushkin.ru:8015/lesson?learning_group_id=13"
+D 14:13:07:322 | Refresh response on  "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:13:07:323 | Refresh on url: "http://panushkin.ru:8015/timing_grid_unit?timing_grid_id=1"
+D 14:13:07:324 | Refresh on url: "http://panushkin.ru:8015/learning_group_hours?learning_group_id=13"
+D 14:13:07:345 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:13:07:346 | Timing grid reply:
+D 14:13:07:346 | "[\n    {\n        \"begin_time\": \"08:30:00.000\",\n        \"day_type\": 0,\n        \"id\": 48,\n        \"order_num\": 1,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"09:25:00.000\",\n        \"day_type\": 0,\n        \"id\": 49,\n        \"order_num\": 2,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"10:20:00.000\",\n        \"day_type\": 0,\n        \"id\": 50,\n        \"order_num\": 3,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"11:15:00.000\",\n        \"day_type\": 0,\n        \"id\": 51,\n        \"order_num\": 4,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"12:10:00.000\",\n        \"day_type\": 0,\n        \"id\": 52,\n        \"order_num\": 5,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"13:05:00.000\",\n        \"day_type\": 0,\n        \"id\": 53,\n        \"order_num\": 6,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"14:00:00.000\",\n        \"day_type\": 0,\n        \"id\": 54,\n        \"order_num\": 7,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"14:55:00.000\",\n        \"day_type\": 0,\n        \"id\": 55,\n        \"order_num\": 8,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"15:50:00.000\",\n        \"day_type\": 0,\n        \"id\": 56,\n        \"order_num\": 9,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"16:45:00.000\",\n        \"day_type\": 0,\n        \"id\": 57,\n        \"order_num\": 10,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"17:40:00.000\",\n        \"day_type\": 0,\n        \"id\": 58,\n        \"order_num\": 11,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"18:35:00.000\",\n        \"day_type\": 0,\n        \"id\": 59,\n        \"order_num\": 12,\n        \"timing_grid_id\": 1\n    }\n]\n"
+D 14:13:07:603 | Schedule refresh reply:
+D 14:13:07:606 | "[\n    {\n        \"day_of_week\": 1,\n        \"id\": 34,\n        \"learning_group_id\": 13,\n        \"order_num\": 2\n    },\n    {\n        \"day_of_week\": 1,\n        \"id\": 35,\n        \"learning_group_id\": 13,\n        \"order_num\": 3\n    },\n    {\n        \"day_of_week\": 1,\n        \"id\": 36,\n        \"learning_group_id\": 13,\n        \"order_num\": 4\n    },\n    {\n        \"day_of_week\": 4,\n        \"id\": 38,\n        \"learning_group_id\": 13,\n        \"order_num\": 3\n    },\n    {\n        \"day_of_week\": 4,\n        \"id\": 39,\n        \"learning_group_id\": 13,\n        \"order_num\": 4\n    }\n]\n"
+D 14:13:07:607 | Refresh response on  "http://panushkin.ru:8015/learning_group_case?learning_group_id=13"
+D 14:13:07:659 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 14:13:07:662 | Refresh on url: "http://panushkin.ru:8015/user_learning_group?learning_group_id=13"
+D 14:13:07:668 | Timing grid reply:
+D 14:13:07:669 | "[\n    {\n        \"begin_time\": \"08:30:00.000\",\n        \"day_type\": 0,\n        \"id\": 48,\n        \"order_num\": 1,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"09:25:00.000\",\n        \"day_type\": 0,\n        \"id\": 49,\n        \"order_num\": 2,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"10:20:00.000\",\n        \"day_type\": 0,\n        \"id\": 50,\n        \"order_num\": 3,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"11:15:00.000\",\n        \"day_type\": 0,\n        \"id\": 51,\n        \"order_num\": 4,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"12:10:00.000\",\n        \"day_type\": 0,\n        \"id\": 52,\n        \"order_num\": 5,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"13:05:00.000\",\n        \"day_type\": 0,\n        \"id\": 53,\n        \"order_num\": 6,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"14:00:00.000\",\n        \"day_type\": 0,\n        \"id\": 54,\n        \"order_num\": 7,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"14:55:00.000\",\n        \"day_type\": 0,\n        \"id\": 55,\n        \"order_num\": 8,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"15:50:00.000\",\n        \"day_type\": 0,\n        \"id\": 56,\n        \"order_num\": 9,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"16:45:00.000\",\n        \"day_type\": 0,\n        \"id\": 57,\n        \"order_num\": 10,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"17:40:00.000\",\n        \"day_type\": 0,\n        \"id\": 58,\n        \"order_num\": 11,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"18:35:00.000\",\n        \"day_type\": 0,\n        \"id\": 59,\n        \"order_num\": 12,\n        \"timing_grid_id\": 1\n    }\n]\n"
+D 14:13:07:691 | Schedule refresh reply:
+D 14:13:07:692 | "[\n    {\n        \"day_of_week\": 1,\n        \"id\": 34,\n        \"learning_group_id\": 13,\n        \"order_num\": 2\n    },\n    {\n        \"day_of_week\": 1,\n        \"id\": 35,\n        \"learning_group_id\": 13,\n        \"order_num\": 3\n    },\n    {\n        \"day_of_week\": 1,\n        \"id\": 36,\n        \"learning_group_id\": 13,\n        \"order_num\": 4\n    },\n    {\n        \"day_of_week\": 4,\n        \"id\": 38,\n        \"learning_group_id\": 13,\n        \"order_num\": 3\n    },\n    {\n        \"day_of_week\": 4,\n        \"id\": 39,\n        \"learning_group_id\": 13,\n        \"order_num\": 4\n    }\n]\n"
+D 14:13:07:721 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1&sysuser_type_id=3"
+D 14:13:07:722 | Update actions
+D 14:13:07:724 | Update actions
+D 14:13:07:779 | NAM active changed: false
+D 14:13:07:780 | Refresh response on  "http://panushkin.ru:8015/user_learning_group?learning_group_id=13"
+D 14:13:11:191 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:13:11:192 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:13:11:221 | Widget registered: "edtFirstName"
+D 14:13:11:221 | Trying to find label widget: "lblFirstName"
+D 14:13:11:222 | Found: false
+D 14:13:11:222 | Widget registered: "edtPassword"
+D 14:13:11:222 | Trying to find label widget: "lblPassword"
+D 14:13:11:222 | Found: false
+D 14:13:11:223 | Widget registered: "edtUsername"
+D 14:13:11:223 | Trying to find label widget: "lblUsername"
+D 14:13:11:223 | Found: false
+D 14:13:11:223 | Widget registered: "edtPhone"
+D 14:13:11:224 | Trying to find label widget: "lblPhone"
+D 14:13:11:224 | Found: false
+D 14:13:11:224 | Widget registered: "edtEmail"
+D 14:13:11:225 | Trying to find label widget: "lblEmail"
+D 14:13:11:225 | Found: false
+D 14:13:11:225 | Widget registered: "edtNumber"
+D 14:13:11:225 | Trying to find label widget: "lblNumber"
+D 14:13:11:226 | Found: false
+D 14:13:11:226 | Widget registered: "edtPassportOffice"
+D 14:13:11:226 | Trying to find label widget: "lblPassportOffice"
+D 14:13:11:227 | Found: false
+D 14:13:11:227 | Widget registered: "edtCode"
+D 14:13:11:227 | Trying to find label widget: "lblCode"
+D 14:13:11:227 | Found: true
+D 14:13:11:228 | Widget registered: "cmbDocType"
+D 14:13:11:228 | Trying to find label widget: "lblDocType"
+D 14:13:11:228 | Found: true
+D 14:13:11:229 | Widget registered: "edtBirthDate"
+D 14:13:11:229 | Trying to find label widget: "lblBirthDate"
+D 14:13:11:229 | Found: false
+D 14:13:11:229 | Widget registered: "cmbCity"
+D 14:13:11:230 | Trying to find label widget: "lblCity"
+D 14:13:11:230 | Found: false
+D 14:13:11:230 | Widget registered: "rbMale"
+D 14:13:11:230 | Trying to find label widget: "lblMale"
+D 14:13:11:231 | Found: false
+D 14:13:11:231 | Widget registered: "cmbUserType"
+D 14:13:11:231 | Trying to find label widget: "lblUserType"
+D 14:13:11:231 | Found: false
+D 14:13:11:232 | Widget registered: "chkActive"
+D 14:13:11:232 | Trying to find label widget: "lblActive"
+D 14:13:11:232 | Found: false
+D 14:13:11:233 | Widget registered: "edtDisableReason"
+D 14:13:11:233 | Trying to find label widget: "lblDisableReason"
+D 14:13:11:233 | Found: false
+D 14:13:11:233 | Widget registered: "rbFirstShift"
+D 14:13:11:234 | Trying to find label widget: "lblFirstShift"
+D 14:13:11:234 | Found: false
+D 14:13:11:234 | Widget registered: "chkSocialBenefits"
+D 14:13:11:234 | Trying to find label widget: "lblSocialBenefits"
+D 14:13:11:235 | Found: false
+D 14:13:11:235 | Widget registered: "edtSocialBenefitsDescription"
+D 14:13:11:235 | Trying to find label widget: "lblSocialBenefitsDescription"
+D 14:13:11:236 | Found: false
+D 14:13:11:236 | Unsupported widget class
+D 14:13:11:236 | Widget registered: "edtSpecialization"
+D 14:13:11:236 | Trying to find label widget: "lblSpecialization"
+D 14:13:11:237 | Found: false
+D 14:13:11:237 | Widget registered: "edtTeacherNumber"
+D 14:13:11:237 | Trying to find label widget: "lblTeacherNumber"
+D 14:13:11:237 | Found: false
+D 14:13:11:238 | Widget registered: "edtSerial"
+D 14:13:11:238 | Trying to find label widget: "lblSerial"
+D 14:13:11:238 | Found: false
+D 14:13:11:238 | Widget registered: "rbStaff"
+D 14:13:11:239 | Trying to find label widget: "lblStaff"
+D 14:13:11:239 | Found: false
+D 14:13:11:239 | Widget registered: "edtLastName"
+D 14:13:11:240 | Trying to find label widget: "lblLastName"
+D 14:13:11:240 | Found: false
+D 14:13:11:240 | Widget registered: "edtRegistrationAddress"
+D 14:13:11:240 | Trying to find label widget: "lblRegistrationAddress"
+D 14:13:11:241 | Found: false
+D 14:13:11:241 | Widget registered: "edtSecondName"
+D 14:13:11:241 | Trying to find label widget: "lblSecondName"
+D 14:13:11:241 | Found: false
+D 14:13:11:242 | Widget registered: "edtActualAddress"
+D 14:13:11:242 | Trying to find label widget: "lblActualAddress"
+D 14:13:11:242 | Found: false
+D 14:13:11:242 | Widget registered: "edtIssueDate"
+D 14:13:11:243 | Trying to find label widget: "lblIssueDate"
+D 14:13:11:243 | Found: false
+D 14:13:11:243 | Found button box: false
+D 14:13:11:244 | "OK" "Cancel"
+D 14:13:11:246 | Update actions
+D 14:13:11:250 | "active" true true
+D 14:13:11:250 | "active" true true
+D 14:13:11:251 | "active" true true
+D 14:13:11:251 | "active" true true
+D 14:13:11:251 | "active" true true
+D 14:13:11:252 | "active" true true
+D 14:13:11:252 | "active" true true
+D 14:13:11:252 | "active" true true
+D 14:13:11:252 | "active" true true
+D 14:13:11:253 | "active" true true
+D 14:13:11:253 | "active" true true
+D 14:13:11:253 | "active" true true
+D 14:13:11:254 | "active" true true
+D 14:13:11:254 | "active" true true
+D 14:13:11:255 | "active" true true
+D 14:13:11:255 | "active" true true
+D 14:13:11:255 | "active" true true
+D 14:13:11:255 | "active" true true
+D 14:13:11:256 | "active" true true
+D 14:13:11:256 | "active" true true
+D 14:13:11:256 | "active" true true
+D 14:13:11:257 | "active" true true
+D 14:13:11:257 | "active" true true
+D 14:13:11:257 | "active" true true
+D 14:13:11:257 | "active" true true
+D 14:13:11:258 | "active" true true
+D 14:13:11:258 | "active" true true
+D 14:13:11:258 | "active" true true
+D 14:13:11:393 | NAM active changed: true
+D 14:13:11:438 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:13:11:439 | Update actions
+D 14:13:11:439 | NAM active changed: false
+D 14:13:11:440 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:13:11:440 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 14:13:11:634 | NAM active changed: true
+D 14:13:11:780 | NAM active changed: false
+D 14:13:11:782 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 14:13:11:785 | "active" true true
+D 14:13:11:786 | "active" true true
+D 14:13:11:787 | "active" true true
+D 14:13:11:788 | "active" true true
+D 14:13:11:789 | "active" true true
+D 14:13:11:791 | "active" true true
+D 14:13:11:792 | "active" true true
+D 14:13:11:793 | "active" true true
+D 14:13:11:794 | "active" true true
+D 14:13:11:795 | "active" true true
+D 14:13:11:796 | "active" true true
+D 14:13:11:798 | "active" true true
+D 14:13:11:799 | "active" true true
+D 14:13:11:800 | "active" true true
+D 14:13:11:800 | "active" true true
+D 14:13:11:801 | "active" true true
+D 14:13:11:803 | "active" true true
+D 14:13:11:804 | "active" true true
+D 14:13:11:805 | "active" true true
+D 14:13:11:806 | "active" true true
+D 14:13:11:807 | "active" true true
+D 14:13:11:808 | "active" true true
+D 14:13:11:809 | "active" true true
+D 14:13:11:810 | "active" true true
+D 14:13:11:812 | "active" true true
+D 14:13:11:813 | "active" true true
+D 14:13:11:814 | "active" true true
+D 14:13:11:815 | "active" true true
+D 14:13:32:271 | Widget registered: "edtTitle"
+D 14:13:32:272 | Trying to find label widget: "lblTitle"
+D 14:13:32:272 | Found: false
+D 14:13:32:272 | Widget registered: "edtMinAge"
+D 14:13:32:273 | Trying to find label widget: "lblMinAge"
+D 14:13:32:273 | Found: false
+D 14:13:32:273 | Widget registered: "edtDescription"
+D 14:13:32:273 | Trying to find label widget: "lblDescription"
+D 14:13:32:274 | Found: false
+D 14:13:32:274 | Widget registered: "edtPassingScore"
+D 14:13:32:274 | Trying to find label widget: "lblPassingScore"
+D 14:13:32:275 | Found: false
+D 14:13:32:277 | Update actions
+D 14:32:03:399 | 
+D 14:32:03:400 | 
+D 14:32:03:400 | 
+D 14:32:03:400 | Build: Thu Jun 11 06:23:47 2020
+D 14:32:03:400 | Log started: "2020-11-09"
+D 14:32:03:401 | Write to file: "./2020-09-11-QuantumDesktop.log"
+D 14:32:03:401 | ==========================================================================================
+D 14:32:03:401 | Data module singleton constructor
+D 14:32:03:402 | Load: "server/host" QVariant(QString, "panushkin.ru")
+D 14:32:03:402 | Load: "server/port" QVariant(QString, "8015")
+D 14:32:03:402 | Load: "server/ssl" QVariant(QString, "false")
+D 14:32:03:402 | Base server url: "http://panushkin.ru:8015/"
+D 14:32:03:415 | Refresh on url: "http://panushkin.ru:8015/achievement_children"
+D 14:32:03:482 | Load: "server/username" QVariant(QString, "mitryashkin")
+D 14:32:03:544 | Refresh response on  "http://panushkin.ru:8015/achievement_children"
+D 14:32:03:544 | Response error on "http://panushkin.ru:8015/achievement_children" : 0 ""
+D 14:32:30:207 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:32:30:209 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:32:30:212 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:32:30:213 | Refresh on url: "http://panushkin.ru:8015/quantum?city_id=1"
+D 14:32:30:215 | Save: "server/username" QVariant(QString, "mitryashkin")
+D 14:32:30:305 | NAM active changed: true
+D 14:32:30:310 | Refresh response on  "http://panushkin.ru:8015/quantum?city_id=1"
+D 14:32:30:322 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:32:30:343 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:32:30:344 | NAM active changed: false
+D 14:32:30:345 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:32:30:346 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 14:32:30:421 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 14:32:30:463 | QUrl("http://panushkin.ru:8015/attachments/sysuser/appdata/23/useravatar.jpg") ""
+D 14:32:30:464 | Read buffer size: 0
+D 14:32:30:547 | NAM active changed: true
+D 14:32:30:564 | OnReadyRead http code: 404
+D 14:32:30:565 | NAM active changed: false
+D 14:32:30:566 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/sysuser/appdata/23/useravatar.jpg")
+W 14:32:30:566 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/sysuser/appdata/23/useravatar.jpg - server replied: "
+D 14:32:30:566 | Ававтар не загружен
+D 14:33:10:378 | Refresh on url: "http://panushkin.ru:8015/case"
+D 14:33:10:416 | Widget registered: "edtTitle"
+D 14:33:10:417 | Trying to find label widget: "lblTitle"
+D 14:33:10:417 | Found: false
+D 14:33:10:417 | Widget registered: "edtMinAge"
+D 14:33:10:418 | Trying to find label widget: "lblMinAge"
+D 14:33:10:418 | Found: false
+D 14:33:10:418 | Widget registered: "edtDescription"
+D 14:33:10:418 | Trying to find label widget: "lblDescription"
+D 14:33:10:419 | Found: false
+D 14:33:10:419 | Widget registered: "edtPassingScore"
+D 14:33:10:419 | Trying to find label widget: "lblPassingScore"
+D 14:33:10:420 | Found: false
+D 14:33:10:420 | Found button box: false
+D 14:33:10:420 | "OK" "Cancel"
+D 14:33:10:423 | Update actions
+D 14:33:10:491 | Refresh response on  "http://panushkin.ru:8015/case"
+D 14:33:16:122 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:33:16:123 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:33:16:155 | Widget registered: "edtFirstName"
+D 14:33:16:155 | Trying to find label widget: "lblFirstName"
+D 14:33:16:156 | Found: false
+D 14:33:16:156 | Widget registered: "edtPassword"
+D 14:33:16:156 | Trying to find label widget: "lblPassword"
+D 14:33:16:156 | Found: false
+D 14:33:16:157 | Widget registered: "edtUsername"
+D 14:33:16:157 | Trying to find label widget: "lblUsername"
+D 14:33:16:157 | Found: false
+D 14:33:16:158 | Widget registered: "edtPhone"
+D 14:33:16:158 | Trying to find label widget: "lblPhone"
+D 14:33:16:158 | Found: false
+D 14:33:16:158 | Widget registered: "edtEmail"
+D 14:33:16:159 | Trying to find label widget: "lblEmail"
+D 14:33:16:159 | Found: false
+D 14:33:16:159 | Widget registered: "edtNumber"
+D 14:33:16:159 | Trying to find label widget: "lblNumber"
+D 14:33:16:160 | Found: false
+D 14:33:16:160 | Widget registered: "edtPassportOffice"
+D 14:33:16:160 | Trying to find label widget: "lblPassportOffice"
+D 14:33:16:161 | Found: false
+D 14:33:16:161 | Widget registered: "edtCode"
+D 14:33:16:161 | Trying to find label widget: "lblCode"
+D 14:33:16:162 | Found: true
+D 14:33:16:162 | Widget registered: "cmbDocType"
+D 14:33:16:162 | Trying to find label widget: "lblDocType"
+D 14:33:16:162 | Found: true
+D 14:33:16:163 | Widget registered: "edtBirthDate"
+D 14:33:16:163 | Trying to find label widget: "lblBirthDate"
+D 14:33:16:163 | Found: false
+D 14:33:16:164 | Widget registered: "cmbCity"
+D 14:33:16:164 | Trying to find label widget: "lblCity"
+D 14:33:16:164 | Found: false
+D 14:33:16:164 | Widget registered: "rbMale"
+D 14:33:16:165 | Trying to find label widget: "lblMale"
+D 14:33:16:165 | Found: false
+D 14:33:16:165 | Widget registered: "cmbUserType"
+D 14:33:16:166 | Trying to find label widget: "lblUserType"
+D 14:33:16:166 | Found: false
+D 14:33:16:166 | Widget registered: "chkActive"
+D 14:33:16:167 | Trying to find label widget: "lblActive"
+D 14:33:16:167 | Found: false
+D 14:33:16:167 | Widget registered: "edtDisableReason"
+D 14:33:16:167 | Trying to find label widget: "lblDisableReason"
+D 14:33:16:168 | Found: false
+D 14:33:16:168 | Widget registered: "rbFirstShift"
+D 14:33:16:168 | Trying to find label widget: "lblFirstShift"
+D 14:33:16:168 | Found: false
+D 14:33:16:169 | Widget registered: "chkSocialBenefits"
+D 14:33:16:169 | Trying to find label widget: "lblSocialBenefits"
+D 14:33:16:169 | Found: false
+D 14:33:16:169 | Widget registered: "edtSocialBenefitsDescription"
+D 14:33:16:170 | Trying to find label widget: "lblSocialBenefitsDescription"
+D 14:33:16:170 | Found: false
+D 14:33:16:170 | Unsupported widget class
+D 14:33:16:171 | Widget registered: "edtSpecialization"
+D 14:33:16:171 | Trying to find label widget: "lblSpecialization"
+D 14:33:16:171 | Found: false
+D 14:33:16:171 | Widget registered: "edtTeacherNumber"
+D 14:33:16:172 | Trying to find label widget: "lblTeacherNumber"
+D 14:33:16:172 | Found: false
+D 14:33:16:172 | Widget registered: "edtSerial"
+D 14:33:16:173 | Trying to find label widget: "lblSerial"
+D 14:33:16:173 | Found: false
+D 14:33:16:173 | Widget registered: "rbStaff"
+D 14:33:16:173 | Trying to find label widget: "lblStaff"
+D 14:33:16:174 | Found: false
+D 14:33:16:174 | Widget registered: "edtLastName"
+D 14:33:16:174 | Trying to find label widget: "lblLastName"
+D 14:33:16:174 | Found: false
+D 14:33:16:175 | Widget registered: "edtRegistrationAddress"
+D 14:33:16:175 | Trying to find label widget: "lblRegistrationAddress"
+D 14:33:16:175 | Found: false
+D 14:33:16:176 | Widget registered: "edtSecondName"
+D 14:33:16:176 | Trying to find label widget: "lblSecondName"
+D 14:33:16:176 | Found: false
+D 14:33:16:176 | Widget registered: "edtActualAddress"
+D 14:33:16:177 | Trying to find label widget: "lblActualAddress"
+D 14:33:16:177 | Found: false
+D 14:33:16:178 | Widget registered: "edtIssueDate"
+D 14:33:16:178 | Trying to find label widget: "lblIssueDate"
+D 14:33:16:178 | Found: false
+D 14:33:16:178 | Found button box: false
+D 14:33:16:179 | "OK" "Cancel"
+D 14:33:16:181 | Update actions
+D 14:33:16:254 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:33:16:254 | Update actions
+D 14:33:16:328 | NAM active changed: true
+D 14:33:16:476 | NAM active changed: false
+D 14:33:16:477 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:33:16:478 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 14:33:16:556 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 14:34:12:461 | Refresh on url: "http://panushkin.ru:8015/case"
+D 14:34:12:483 | Widget registered: "edtTitle"
+D 14:34:12:483 | Trying to find label widget: "lblTitle"
+D 14:34:12:484 | Found: false
+D 14:34:12:484 | Widget registered: "edtMinAge"
+D 14:34:12:484 | Trying to find label widget: "lblMinAge"
+D 14:34:12:485 | Found: false
+D 14:34:12:485 | Widget registered: "edtDescription"
+D 14:34:12:485 | Trying to find label widget: "lblDescription"
+D 14:34:12:485 | Found: false
+D 14:34:12:486 | Widget registered: "edtPassingScore"
+D 14:34:12:486 | Trying to find label widget: "lblPassingScore"
+D 14:34:12:486 | Found: false
+D 14:34:12:487 | Found button box: false
+D 14:34:12:487 | "OK" "Cancel"
+D 14:34:12:489 | Update actions
+D 14:34:12:568 | Refresh response on  "http://panushkin.ru:8015/case"
+D 14:34:43:944 | Send request: QUrl("http://panushkin.ru:8015/achievementTree?city_id=1")
+D 14:34:43:945 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 14:34:43:946 | Refresh on url: "http://panushkin.ru:8015/achievement_group"
+D 14:34:44:059 | Refresh response (tree model) on  "http://panushkin.ru:8015/achievementTree?city_id=1"
+D 14:34:44:111 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 14:34:44:112 | Refresh response on  "http://panushkin.ru:8015/achievement_group"
+D 14:34:47:766 | QUrl("http://panushkin.ru:8015/attachments/achievement/18/icon.jpg") ""
+D 14:34:47:767 | Read buffer size: 0
+D 14:34:47:768 | Refresh on url: "http://panushkin.ru:8015/achievement_children?achievement_id=18"
+D 14:34:47:826 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/achievement/18/icon.jpg")
+D 14:34:47:875 | Refresh response on  "http://panushkin.ru:8015/achievement_children?achievement_id=18"
+D 14:34:48:713 | QUrl("http://panushkin.ru:8015/attachments/achievement/22/icon.jpg") ""
+D 14:34:48:714 | Read buffer size: 0
+D 14:34:48:714 | Refresh on url: "http://panushkin.ru:8015/achievement_children?achievement_id=22"
+D 14:34:48:776 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/achievement/22/icon.jpg")
+D 14:34:48:818 | Refresh response on  "http://panushkin.ru:8015/achievement_children?achievement_id=22"
+D 14:34:49:735 | QUrl("http://panushkin.ru:8015/attachments/achievement/14/icon.jpg") ""
+D 14:34:49:735 | Read buffer size: 0
+D 14:34:49:736 | Refresh on url: "http://panushkin.ru:8015/achievement_children?achievement_id=14"
+D 14:34:49:793 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/achievement/14/icon.jpg")
+D 14:34:49:839 | Refresh response on  "http://panushkin.ru:8015/achievement_children?achievement_id=14"
+D 14:34:52:002 | QUrl("http://panushkin.ru:8015/attachments/achievement/26/icon.jpg") ""
+D 14:34:52:003 | Read buffer size: 0
+D 14:34:52:003 | Refresh on url: "http://panushkin.ru:8015/achievement_children?achievement_id=26"
+D 14:34:52:097 | OnReadyRead http code: 404
+D 14:34:52:099 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/achievement/26/icon.jpg")
+W 14:34:52:100 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/achievement/26/icon.jpg - server replied: "
+D 14:34:52:102 | Icon downloader error
+D 14:34:52:103 | Refresh response on  "http://panushkin.ru:8015/achievement_children?achievement_id=26"
+D 14:34:53:526 | QUrl("http://panushkin.ru:8015/attachments/achievement/25/icon.jpg") ""
+D 14:34:53:526 | Read buffer size: 0
+D 14:34:53:527 | Refresh on url: "http://panushkin.ru:8015/achievement_children?achievement_id=25"
+D 14:34:53:640 | OnReadyRead http code: 404
+D 14:34:53:640 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/achievement/25/icon.jpg")
+W 14:34:53:641 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/achievement/25/icon.jpg - server replied: "
+D 14:34:53:641 | Icon downloader error
+D 14:34:53:647 | Refresh response on  "http://panushkin.ru:8015/achievement_children?achievement_id=25"
+D 14:34:56:056 | QUrl("http://panushkin.ru:8015/attachments/achievement/26/icon.jpg") ""
+D 14:34:56:057 | Read buffer size: 0
+D 14:34:56:057 | Refresh on url: "http://panushkin.ru:8015/achievement_children?achievement_id=26"
+D 14:34:56:164 | OnReadyRead http code: 404
+D 14:34:56:164 | On download Finished: QUrl("http://panushkin.ru:8015/attachments/achievement/26/icon.jpg")
+W 14:34:56:165 | On finished error: QNetworkReply::ContentNotFoundError "Error transferring http://panushkin.ru:8015/attachments/achievement/26/icon.jpg - server replied: "
+D 14:34:56:165 | Icon downloader error
+D 14:34:56:165 | Refresh response on  "http://panushkin.ru:8015/achievement_children?achievement_id=26"
+D 14:35:17:989 | Send request: QUrl("http://panushkin.ru:8015/achievementTree?city_id=1")
+D 14:35:17:990 | Refresh on url: "http://panushkin.ru:8015/achievement"
+D 14:35:17:990 | Refresh on url: "http://panushkin.ru:8015/achievement_group"
+D 14:35:18:077 | Refresh response on  "http://panushkin.ru:8015/achievement"
+D 14:35:18:078 | Refresh response (tree model) on  "http://panushkin.ru:8015/achievementTree?city_id=1"
+D 14:35:18:217 | NAM active changed: true
+D 14:35:18:219 | NAM active changed: false
+D 14:35:18:220 | Refresh response on  "http://panushkin.ru:8015/achievement_group"
+D 14:35:20:984 | Refresh on url: "http://panushkin.ru:8015/quantum?city_id=1"
+D 14:35:20:988 | Widget registered: "edtName"
+D 14:35:20:988 | Trying to find label widget: "lblName"
+D 14:35:20:989 | Found: true
+D 14:35:20:989 | Widget registered: "edtDescription"
+D 14:35:20:989 | Trying to find label widget: "lblDescription"
+D 14:35:20:990 | Found: true
+D 14:35:20:990 | Widget registered: "cmbCity"
+D 14:35:20:990 | Trying to find label widget: "lblCity"
+D 14:35:20:990 | Found: true
+D 14:35:20:991 | Found button box: false
+D 14:35:20:991 | "OK" "Cancel"
+D 14:35:20:994 | Update actions
+D 14:35:21:065 | Refresh response on  "http://panushkin.ru:8015/quantum?city_id=1"
+D 14:35:35:428 | Refresh on url: "http://panushkin.ru:8015/quantum?city_id=1"
+D 14:35:35:429 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:35:35:430 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:35:35:473 | Refresh on url: "http://panushkin.ru:8015/timing_grid_unit"
+D 14:35:35:475 | Widget registered: "edtTitle"
+D 14:35:35:476 | Trying to find label widget: "lblTitle"
+D 14:35:35:476 | Found: false
+D 14:35:35:477 | Widget registered: "cmbQuantum"
+D 14:35:35:477 | Trying to find label widget: "lblQuantum"
+D 14:35:35:477 | Found: false
+D 14:35:35:478 | Widget registered: "edtMinAge"
+D 14:35:35:478 | Trying to find label widget: "lblMinAge"
+D 14:35:35:478 | Found: false
+D 14:35:35:478 | Widget registered: "cmbTeacher"
+D 14:35:35:479 | Trying to find label widget: "lblTeacher"
+D 14:35:35:479 | Found: false
+D 14:35:35:479 | Widget registered: "edtMaxStudent"
+D 14:35:35:480 | Trying to find label widget: "lblMaxStudent"
+D 14:35:35:480 | Found: false
+D 14:35:35:481 | Widget registered: "edtMinStudent"
+D 14:35:35:481 | Trying to find label widget: "lblMinStudent"
+D 14:35:35:481 | Found: false
+D 14:35:35:482 | Widget registered: "edtFinishDate"
+D 14:35:35:482 | Trying to find label widget: "lblFinishDate"
+D 14:35:35:482 | Found: false
+D 14:35:35:482 | Widget registered: "edtStartDate"
+D 14:35:35:483 | Trying to find label widget: "lblStartDate"
+D 14:35:35:483 | Found: false
+D 14:35:35:483 | Widget registered: "chkOptional"
+D 14:35:35:484 | Trying to find label widget: "lblOptional"
+D 14:35:35:484 | Found: false
+D 14:35:35:484 | Widget registered: "cmbSubTeacher"
+D 14:35:35:484 | Trying to find label widget: "lblSubTeacher"
+D 14:35:35:485 | Found: false
+D 14:35:35:495 | Found button box: false
+D 14:35:35:495 | "OK" "Cancel"
+D 14:35:35:498 | Update actions
+D 14:35:35:546 | Refresh response on  "http://panushkin.ru:8015/quantum?city_id=1"
+D 14:35:35:547 | Update actions
+D 14:35:35:547 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:35:35:548 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:35:35:549 | "Send request http://panushkin.ru:8015/adminSchedule?city_id=1"
+D 14:35:35:549 | Refresh on url: "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:35:35:550 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:35:35:551 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:35:35:551 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 14:35:35:552 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1&sysuser_type_id=3"
+D 14:35:35:585 | Refresh response on  "http://panushkin.ru:8015/timing_grid_unit"
+D 14:35:35:617 | "Refresh reply received http://panushkin.ru:8015/adminSchedule?city_id=1"
+D 14:35:35:641 | NAM active changed: true
+D 14:35:35:657 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:35:35:658 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 14:35:35:659 | Refresh on url: "http://panushkin.ru:8015/learning_group"
+D 14:35:35:661 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:35:35:664 | Refresh response on  "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:35:35:665 | Refresh on url: "http://panushkin.ru:8015/timing_grid_unit?timing_grid_id=0"
+D 14:35:35:666 | Refresh on url: "http://panushkin.ru:8015/learning_group_hours?learning_group_id=-1"
+D 14:35:35:701 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1&sysuser_type_id=3"
+D 14:35:35:763 | Refresh response on  "http://panushkin.ru:8015/learning_group"
+D 14:35:35:789 | Timing grid reply:
+D 14:35:35:790 | "[\n]\n"
+D 14:35:35:791 | NAM active changed: false
+D 14:35:35:792 | Schedule refresh reply:
+D 14:35:35:793 | "[\n]\n"
+D 14:36:38:765 | Update actions
+D 14:36:38:766 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:36:38:766 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:36:38:767 | "Send request http://panushkin.ru:8015/adminSchedule?city_id=1"
+D 14:36:38:767 | Refresh on url: "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:36:38:769 | Refresh on url: "http://panushkin.ru:8015/case"
+D 14:36:38:769 | Refresh on url: "http://panushkin.ru:8015/city?id=1"
+D 14:36:38:770 | Refresh on url: "http://panushkin.ru:8015/userType"
+D 14:36:38:771 | Refresh on url: "http://panushkin.ru:8015/lesson?learning_group_id=13"
+D 14:36:38:771 | Refresh on url: "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:36:38:772 | Update actions
+D 14:36:38:772 | Update actions
+D 14:36:38:889 | Refresh response on  "http://panushkin.ru:8015/case"
+D 14:36:38:890 | Refresh on url: "http://panushkin.ru:8015/learning_group_case?learning_group_id=13"
+D 14:36:38:899 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:36:38:900 | "Refresh reply received http://panushkin.ru:8015/adminSchedule?city_id=1"
+D 14:36:38:901 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:36:38:901 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1"
+D 14:36:38:902 | Refresh on url: "http://panushkin.ru:8015/user?city_id=1&sysuser_type_id=3"
+D 14:36:38:912 | Refresh response on  "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:36:38:913 | Refresh on url: "http://panushkin.ru:8015/timing_grid_unit?timing_grid_id=1"
+D 14:36:38:913 | Refresh on url: "http://panushkin.ru:8015/learning_group_hours?learning_group_id=13"
+D 14:36:38:915 | Refresh response on  "http://panushkin.ru:8015/city?id=1"
+D 14:36:38:963 | NAM active changed: true
+D 14:36:38:981 | Refresh response on  "http://panushkin.ru:8015/userType"
+D 14:36:38:987 | Refresh response on  "http://panushkin.ru:8015/lesson?learning_group_id=13"
+D 14:36:39:014 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1"
+D 14:36:39:015 | Refresh on url: "http://panushkin.ru:8015/user_learning_group?learning_group_id=13"
+D 14:36:39:016 | Refresh response on  "http://panushkin.ru:8015/timing_grid?city_id=1"
+D 14:36:39:017 | Refresh on url: "http://panushkin.ru:8015/timing_grid_unit?timing_grid_id=1"
+D 14:36:39:017 | Refresh on url: "http://panushkin.ru:8015/learning_group_hours?learning_group_id=13"
+D 14:36:39:033 | Refresh response on  "http://panushkin.ru:8015/user?city_id=1&sysuser_type_id=3"
+D 14:36:39:034 | Update actions
+D 14:36:39:035 | Update actions
+D 14:36:39:042 | Timing grid reply:
+D 14:36:39:042 | "[\n    {\n        \"begin_time\": \"08:30:00.000\",\n        \"day_type\": 0,\n        \"id\": 48,\n        \"order_num\": 1,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"09:25:00.000\",\n        \"day_type\": 0,\n        \"id\": 49,\n        \"order_num\": 2,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"10:20:00.000\",\n        \"day_type\": 0,\n        \"id\": 50,\n        \"order_num\": 3,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"11:15:00.000\",\n        \"day_type\": 0,\n        \"id\": 51,\n        \"order_num\": 4,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"12:10:00.000\",\n        \"day_type\": 0,\n        \"id\": 52,\n        \"order_num\": 5,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"13:05:00.000\",\n        \"day_type\": 0,\n        \"id\": 53,\n        \"order_num\": 6,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"14:00:00.000\",\n        \"day_type\": 0,\n        \"id\": 54,\n        \"order_num\": 7,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"14:55:00.000\",\n        \"day_type\": 0,\n        \"id\": 55,\n        \"order_num\": 8,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"15:50:00.000\",\n        \"day_type\": 0,\n        \"id\": 56,\n        \"order_num\": 9,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"16:45:00.000\",\n        \"day_type\": 0,\n        \"id\": 57,\n        \"order_num\": 10,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"17:40:00.000\",\n        \"day_type\": 0,\n        \"id\": 58,\n        \"order_num\": 11,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"18:35:00.000\",\n        \"day_type\": 0,\n        \"id\": 59,\n        \"order_num\": 12,\n        \"timing_grid_id\": 1\n    }\n]\n"
+D 14:36:39:043 | Refresh response on  "http://panushkin.ru:8015/learning_group_case?learning_group_id=13"
+D 14:36:39:073 | Timing grid reply:
+D 14:36:39:074 | "[\n    {\n        \"begin_time\": \"08:30:00.000\",\n        \"day_type\": 0,\n        \"id\": 48,\n        \"order_num\": 1,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"09:25:00.000\",\n        \"day_type\": 0,\n        \"id\": 49,\n        \"order_num\": 2,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"10:20:00.000\",\n        \"day_type\": 0,\n        \"id\": 50,\n        \"order_num\": 3,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"11:15:00.000\",\n        \"day_type\": 0,\n        \"id\": 51,\n        \"order_num\": 4,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"12:10:00.000\",\n        \"day_type\": 0,\n        \"id\": 52,\n        \"order_num\": 5,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"13:05:00.000\",\n        \"day_type\": 0,\n        \"id\": 53,\n        \"order_num\": 6,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"14:00:00.000\",\n        \"day_type\": 0,\n        \"id\": 54,\n        \"order_num\": 7,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"14:55:00.000\",\n        \"day_type\": 0,\n        \"id\": 55,\n        \"order_num\": 8,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"15:50:00.000\",\n        \"day_type\": 0,\n        \"id\": 56,\n        \"order_num\": 9,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"16:45:00.000\",\n        \"day_type\": 0,\n        \"id\": 57,\n        \"order_num\": 10,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"17:40:00.000\",\n        \"day_type\": 0,\n        \"id\": 58,\n        \"order_num\": 11,\n        \"timing_grid_id\": 1\n    },\n    {\n        \"begin_time\": \"18:35:00.000\",\n        \"day_type\": 0,\n        \"id\": 59,\n        \"order_num\": 12,\n        \"timing_grid_id\": 1\n    }\n]\n"
+D 14:36:39:084 | Schedule refresh reply:
+D 14:36:39:085 | "[\n    {\n        \"day_of_week\": 1,\n        \"id\": 34,\n        \"learning_group_id\": 13,\n        \"order_num\": 2\n    },\n    {\n        \"day_of_week\": 1,\n        \"id\": 35,\n        \"learning_group_id\": 13,\n        \"order_num\": 3\n    },\n    {\n        \"day_of_week\": 1,\n        \"id\": 36,\n        \"learning_group_id\": 13,\n        \"order_num\": 4\n    },\n    {\n        \"day_of_week\": 4,\n        \"id\": 38,\n        \"learning_group_id\": 13,\n        \"order_num\": 3\n    },\n    {\n        \"day_of_week\": 4,\n        \"id\": 39,\n        \"learning_group_id\": 13,\n        \"order_num\": 4\n    }\n]\n"
+D 14:36:39:115 | Refresh response on  "http://panushkin.ru:8015/user_learning_group?learning_group_id=13"
+D 14:36:39:131 | NAM active changed: false
+D 14:36:39:132 | Schedule refresh reply:
+D 14:36:39:133 | "[\n    {\n        \"day_of_week\": 1,\n        \"id\": 34,\n        \"learning_group_id\": 13,\n        \"order_num\": 2\n    },\n    {\n        \"day_of_week\": 1,\n        \"id\": 35,\n        \"learning_group_id\": 13,\n        \"order_num\": 3\n    },\n    {\n        \"day_of_week\": 1,\n        \"id\": 36,\n        \"learning_group_id\": 13,\n        \"order_num\": 4\n    },\n    {\n        \"day_of_week\": 4,\n        \"id\": 38,\n        \"learning_group_id\": 13,\n        \"order_num\": 3\n    },\n    {\n        \"day_of_week\": 4,\n        \"id\": 39,\n        \"learning_group_id\": 13,\n        \"order_num\": 4\n    }\n]\n"
+D 14:37:43:858 | Widget registered: "edtTitle"
+D 14:37:43:859 | Trying to find label widget: "lblTitle"
+D 14:37:43:859 | Found: false
+D 14:37:43:860 | Widget registered: "edtMinAge"
+D 14:37:43:860 | Trying to find label widget: "lblMinAge"
+D 14:37:43:861 | Found: false
+D 14:37:43:861 | Widget registered: "edtDescription"
+D 14:37:43:861 | Trying to find label widget: "lblDescription"
+D 14:37:43:861 | Found: false
+D 14:37:43:862 | Widget registered: "edtPassingScore"
+D 14:37:43:862 | Trying to find label widget: "lblPassingScore"
+D 14:37:43:863 | Found: false
+D 14:37:43:865 | Update actions
